@@ -56,15 +56,17 @@
 
 - Colour Scheme:
 
-  - The colour palette consists of four distinct shades, each with its own unique meaning and representation.
+![colour-palette](https://github.com/zaicodes/beyond-photos-photography/documentation/colour-palette)
 
-  - The pure white (#ffffff) symbolizes cleanliness, and simplicity. It represents a sense of clarity and openness. On the other hand, the intense black (#000000) conveys strength, authority. It adds a touch of sophistication and elegance to the palette.
+- The colour palette consists of four distinct shades, each with its own unique meaning and representation.
 
-  - The shade of light grey (#80727B) brings in a sense of neutrality, balance, and professionalism. It provides a subtle contrast between the white and black, creating a harmonious blend. This hue adds a touch of modernity and refinement to the overall palette.
+- The pure white (#ffffff) symbolizes cleanliness, and simplicity. It represents a sense of clarity and openness. On the other hand, the intense black (#000000) conveys strength, authority. It adds a touch of sophistication and elegance to the palette.
 
-  - The vibrant red (#FF0000) stands out as a bold accent colour, representing passion, energy, and excitement. It adds a dynamic element to the palette, catching the viewer's attention and creating a focal point. This intense hue conveys a sense of urgency and evokes strong emotions.
+- The shade of light grey (#80727B) brings in a sense of neutrality, balance, and professionalism. It provides a subtle contrast between the white and black, creating a harmonious blend. This hue adds a touch of modernity and refinement to the overall palette.
 
-  - Together, the colour palette combines the purity and simplicity of white, the strength and mystery of black, the neutrality and professionalism of light grey, and the passion and energy of red. It creates a visually striking and well-balanced palette that blends elements of clarity, sophistication, modernity, and dynamism.
+- The vibrant red (#FF0000) stands out as a bold accent colour, representing passion, energy, and excitement. It adds a dynamic element to the palette, catching the viewer's attention and creating a focal point. This intense hue conveys a sense of urgency and evokes strong emotions.
+
+- Together, the colour palette combines the purity and simplicity of white, the strength and mystery of black, the neutrality and professionalism of light grey, and the passion and energy of red. It creates a visually striking and well-balanced palette that blends elements of clarity, sophistication, modernity, and dynamism.
 
 - Logo:
 
@@ -155,8 +157,6 @@ During the planning phase, I used Balsamiq to create wireframes for each page an
   Most of the codes are inspired from the Love Running project.
   The responsiveness of the website are taken from navbar section in Boostrap documents which is found in the Bootstrap website.
 
-  - The code for the hamburger menu using only HTML and CSS was taken from https://dev.to/ljcdev/hamburger-css-no-js-2dfa
-
 - Media:
   All images used are from:
 
@@ -170,6 +170,6 @@ During the planning phase, I used Balsamiq to create wireframes for each page an
 
 - Acknowledgements
   - I would like to extend my heartfelt appreciation to the individuals who offered their invaluable assistance and unwavering support throughout the completion of my initial milestone project:
-    - <Peter W.> – for the weekly stand-ups which were very helpful and informative.
-    - <Narender S.> – my mentor for checking my progress and providing helpful feedback.
-    - <Asim S.> (Preply) – Preply tutor, who helped me learn how to code and develop this skill (highly recommend him).
+    - Peter W. – for the weekly stand-ups which were very helpful and informative.
+    - Narender S. – my mentor for checking my progress and providing helpful feedback.
+    - Asim S. (Preply) – an online tutor, who helped me learn how to code and develop this skill (highly recommend him).
