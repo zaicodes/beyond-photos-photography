@@ -88,7 +88,7 @@ During the planning phase, I used Balsamiq to create wireframes for each page an
 
 - ### Navigation
 
-  - Featured at the top of all five pages for intuitive navigation.
+  - Featured at the top of all four pages for intuitive navigation.
   - Consists of the Beyond Photos Photography logo that links to the home page, as well as links to Gallery, FAQs and About/contact us pages.
   - The navigation bar exhibits full responsiveness, adapting to different screen sizes seamlessly. On larger screens, the links are presented as clickable page titles. However, on medium and small screens, a hamburger menu is employed to ensure optimal usability.
   - The navigation bar simplifies the user experience by providing easy access to different sections of the site, eliminating the need to rely on the web browser's back button.
