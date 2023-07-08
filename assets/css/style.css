@@ -31,7 +31,7 @@ img {
 /* header section */
 
 header {
-  background-image: url(images/hero-section.jpg);
+  background-image: url("/assets/images/hero-section.jpg");
   background-position: 20% 30%;
   background-size: 200%;
   background-repeat: no-repeat;
@@ -58,21 +58,20 @@ header:hover {
 }
 
 .header-content button {
-    border: none;
-    padding: 18px 22px;
-    background-color: white;
-    color: black;
-    font-family: sans-serif;
-    font-size: 1.8rem;
-    position: relative;
-    left: -65px;
-    bottom: 60px;
-    transition: 0.5;s;
-    
+  border: none;
+  padding: 18px 22px;
+  background-color: white;
+  color: black;
+  font-family: sans-serif;
+  font-size: 1.8rem;
+  position: relative;
+  left: -65px;
+  bottom: 60px;
+  transition: 0.5s;
 }
 
 .header-content button:hover {
-    background-color: black !important;
-    color: white;
-    transition: 0.5s;
+  background-color: black !important;
+  color: white;
+  transition: 0.5s;
 }
