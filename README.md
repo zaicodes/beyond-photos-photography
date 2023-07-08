@@ -56,7 +56,7 @@
 
 - Colour Scheme:
 
-![colour-palette](https://github.com/zaicodes/beyond-photos-photography/documentation/colour-palette.png)
+![colour-palette](https://github.com/zaicodes/beyond-photos-photography/blob/main/documentation/colour-palette.png)
 
 - The colour palette consists of four distinct shades, each with its own unique meaning and representation.
 
