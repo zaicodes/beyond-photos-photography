@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/media.css" />
     <title>Beyond Photos Photography</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
@@ -26,7 +27,7 @@
   <body>
     <nav class="navbar navbar-expand-lg">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#"
+        <a class="navbar-brand mt-1 ms-lg-5" href="#"
           ><img src="assets/images/navbarlogo.png" alt="logo"
         /></a>
         <button
@@ -40,20 +41,28 @@
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="nav-links collapse navbar-collapse" id="navbarText">
+        <div
+          class="nav-links d-lg-flex collapse navbar-collapse"
+          id="navbarText"
+        >
           <span class="navbar-text">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <ul class="navbar-nav me-5 mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a
+                  class="nav-link px-3 py-4 active"
+                  aria-current="page"
+                  href="#"
+                  >Home</a
+                >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Gallery</a>
+                <a class="nav-link px-3 py-4" href="#">Gallery</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">FAQs</a>
+                <a class="nav-link px-3 py-4" href="#">FAQs</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">About-Contact us</a>
+              <li class="nav-item me-lg-5">
+                <a class="nav-link px-3 py-4" href="#">About-Contact us</a>
               </li>
             </ul>
           </span>
@@ -61,9 +70,11 @@
       </div>
     </nav>
     <header>
-      <div class="container header-content">
-        <h1>Professional photography that reflects your unique story!</h1>
-        <button>Book a session</button>
+      <div class="ms-5 header-content">
+        <h1 class="ms-lg-5">
+          Professional photography that reflects your unique story!
+        </h1>
+        <button class="mt-5 ms-lg-5">Book a session</button>
       </div>
     </header>
   </body>
