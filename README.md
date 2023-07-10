@@ -27,30 +27,30 @@
 
   - First time visitors goals are:
 
-    1. Gathering Information: Visitors want to learn about the photographer's services, such as session types, pricing, locations, and overall experience, to see if they align with their needs.
-    1. Evaluating Quality and Style: They aim to assess the photographer's work by exploring the gallery and examples of previous sessions to see if the artistic style matches their preferences.
-    1. To easily navigate around the content of the site.
-    1. Building Trust and Credibility: First-time visitors seek indications of the photographer's professionalism, experience, and reputation through testimonials and client reviews.
-    1. Contacting or Booking a Session: Many visitors want to take the next step by finding clear contact information or an easy-to-use booking system to inquire about location, availability and secure a date for their desired session.
+    - Gathering Information: Visitors want to learn about the photographer's services, such as session types, pricing, locations, and overall experience, to see if they align with their needs.
+    - Evaluating Quality and Style: They aim to assess the photographer's work by exploring the gallery and examples of previous sessions to see if the artistic style matches their preferences.
+    - To easily navigate around the content of the site.
+    - Building Trust and Credibility: First-time visitors seek indications of the photographer's professionalism, experience, and reputation through testimonials and client reviews.
+    - Contacting or Booking a Session: Many visitors want to take the next step by finding clear contact information or an easy-to-use booking system to inquire about location, availability and secure a date for their desired session.
 
   - Returning visitors goals are:
 
-    1. Revisiting the gallery: They want to gather inspiration, remind themselves of the photographer's style, or explore new additions to the gallery.
-    1. Checking for Updates or Promotions: They are interested in any new session options, special offers, or upcoming events introduced since their last visit.
-    1. Accessing Client Galleries or Ordering Prints: If available, returning visitors may want to view or purchase additional prints from their own galleries or order prints from previous sessions.
-    1. Exploring Additional Services: Returning visitors who have previously booked a session may want to explore specialized sessions or package deals for multiple sessions.
+    - Revisiting the gallery: They want to gather inspiration, remind themselves of the photographer's style, or explore new additions to the gallery.
+    - Checking for Updates or Promotions: They are interested in any new session options, special offers, or upcoming events introduced since their last visit.
+    - Accessing Client Galleries or Ordering Prints: If available, returning visitors may want to view or purchase additional prints from their own galleries or order prints from previous sessions.
+    - Exploring Additional Services: Returning visitors who have previously booked a session may want to explore specialized sessions or package deals for multiple sessions.
 
-    1. Seeking Contact Information or Support: They may have questions, need support, or want to enquire about rescheduling a session, seeking advice on photo products, or addressing any other concerns.
+    - Seeking Contact Information or Support: They may have questions, need support, or want to enquire about rescheduling a session, seeking advice on photo products, or addressing any other concerns.
 
 - Frequent visitors goals are:
 
-  1. Monitoring for Special Events or Limited Offers: Frequent visitors want to stay informed about exclusive sessions, special events, or limited-time offers that the photographer announces, anticipating unique opportunities.
+  - Monitoring for Special Events or Limited Offers: Frequent visitors want to stay informed about exclusive sessions, special events, or limited-time offers that the photographer announces, anticipating unique opportunities.
 
-  1. Researching for Future Sessions or Projects: They use the website as a research tool, exploring session options, gathering ideas for themes or locations, and seeking inspiration for their own photography projects.
+  - Researching for Future Sessions or Projects: They use the website as a research tool, exploring session options, gathering ideas for themes or locations, and seeking inspiration for their own photography projects.
 
-  1. Engaging with social media or Community: Active participants in the photographer's social media channels or online community, they check for updates, engage with posts, share their experiences, and connect with others who appreciate the photographer's work.
+  - Engaging with social media or Community: Active participants in the photographer's social media channels or online community, they check for updates, engage with posts, share their experiences, and connect with others who appreciate the photographer's work.
 
-  1. Referring Others to the Photographer: Loyal and enthusiastic, they aim to refer friends, family, or colleagues to the photographer by sharing the website, portfolio, or testimonials with others seeking professional portrait photography.
+  - Referring Others to the Photographer: Loyal and enthusiastic, they aim to refer friends, family, or colleagues to the photographer by sharing the website, portfolio, or testimonials with others seeking professional portrait photography.
 
 ## Design
 
@@ -85,6 +85,8 @@
 ## Wireframes
 
 During the planning phase, I used Balsamiq to create wireframes for each page and establish the website's structure.
+
+[home-page-wireframe](https://github.com/zaicodes/beyond-photos-photography/blob/main/documentation/home-page-wireframe.png)
 
 ## Features
 
@@ -123,16 +125,16 @@ During the planning phase, I used Balsamiq to create wireframes for each page an
   - CSS3 and Bootstrap 5
 
 - ### Frameworks, Libraries and Programs Used
-  1. Google Fonts - to add and import the fonts used in the website.
-  2. [Heroicons](https://heroicons.com/) - for the icons used in the website.
-  3. Git - for version control
-  4. GitHub - sharing and storing the files of the website
-  5. [Balsamiq](https://balsamiq.com/wireframes/) - to produce wireframes
-  6. Visual Studio Code - to code my project
-  7. Lighthouse - to test the accessibility of the website
-  8. [Am I responsive?](https://ui.dev/amiresponsive) To present the website image on a different devices.
-  9. Google Dev Tools - to test features, and responsiveness and to troubleshoot.
-  10. [Coolors](https://coolors.co) - to check colour contrast of the website and to create the colour palette.
+  - Google Fonts - to add and import the fonts used in the website.
+  - [Heroicons](https://heroicons.com/) - for the icons used in the website.
+  - Git - for version control
+  - GitHub - sharing and storing the files of the website
+  - [Balsamiq](https://balsamiq.com/wireframes/) - to produce wireframes
+  - Visual Studio Code - to code my project
+  - Lighthouse - to test the accessibility of the website
+  - [Am I responsive?](https://ui.dev/amiresponsive) To present the website image on a different devices.
+  - Google Dev Tools - to test features, and responsiveness and to troubleshoot.
+  - [Coolors](https://coolors.co) - to check colour contrast of the website and to create the colour palette.
 
 ## Testing
 
