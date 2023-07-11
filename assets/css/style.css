@@ -14,9 +14,7 @@ a {
   font-family: "Montserrat", sans-serif;
 }
 
-/* .navbar {
-  height: 12vh;
-} */
+/* Navbar Section */
 
 img {
   width: 120px !important;
@@ -91,7 +89,7 @@ header:hover {
   transition: 0.5s;
 }
 
-/* section 1 */
+/* Gallery Section */
 
 #section-1 {
   padding: 100px 20px;
@@ -129,4 +127,4 @@ header:hover {
   transition: 0.5s;
 }
 
-/* section 2 */
+/* Testimonials */
