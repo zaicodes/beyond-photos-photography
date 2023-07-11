@@ -30,20 +30,20 @@ The intended audience are those who are looking for professional photography ser
 
 First time visitors goals are:
 
-    - Gathering Information: Visitors want to learn about the photographer's services, such as session types, pricing, locations, and overall experience, to see if they align with their needs.
-    - Evaluating Quality and Style: They aim to assess the photographer's work by exploring the gallery and examples of previous sessions to see if the artistic style matches their preferences.
-    - To easily navigate around the content of the site.
-    - Building Trust and Credibility: First-time visitors seek indications of the photographer's professionalism, experience, and reputation through testimonials and client reviews.
-    - Contacting or Booking a Session: Many visitors want to take the next step by finding clear contact information or an easy-to-use booking system to inquire about location, availability and secure a date for their desired session.
+- Gathering Information: Visitors want to learn about the photographer's services, such as session types, pricing, locations, and overall experience, to see if they align with their needs.
+- Evaluating Quality and Style: They aim to assess the photographer's work by exploring the gallery and examples of previous sessions to see if the artistic style matches their preferences.
+- To easily navigate around the content of the site.
+- Building Trust and Credibility: First-time visitors seek indications of the photographer's professionalism, experience, and reputation through testimonials and client reviews.
+- Contacting or Booking a Session: Many visitors want to take the next step by finding clear contact information or an easy-to-use booking system to inquire about location, availability and secure a date for their desired session.
 
 Returning visitors goals are:
 
-    - Revisiting the gallery: They want to gather inspiration, remind themselves of the photographer's style, or explore new additions to the gallery.
-    - Checking for Updates or Promotions: They are interested in any new session options, special offers, or upcoming events introduced since their last visit.
-    - Accessing Client Galleries or Ordering Prints: If available, returning visitors may want to view or purchase additional prints from their own galleries or order prints from previous sessions.
-    - Exploring Additional Services: Returning visitors who have previously booked a session may want to explore specialized sessions or package deals for multiple sessions.
+- Revisiting the gallery: They want to gather inspiration, remind themselves of the photographer's style, or explore new additions to the gallery.
+- Checking for Updates or Promotions: They are interested in any new session options, special offers, or upcoming events introduced since their last visit.
+- Accessing Client Galleries or Ordering Prints: If available, returning visitors may want to view or purchase additional prints from their own galleries or order prints from previous sessions.
+- Exploring Additional Services: Returning visitors who have previously booked a session may want to explore specialized sessions or package deals for multiple sessions.
 
-    - Seeking Contact Information or Support: They may have questions, need support, or want to enquire about rescheduling a session, seeking advice on photo products, or addressing any other concerns.
+- Seeking Contact Information or Support: They may have questions, need support, or want to enquire about rescheduling a session, seeking advice on photo products, or addressing any other concerns.
 
 Frequent visitors goals are:
 
