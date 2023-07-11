@@ -18,7 +18,11 @@ The website should also assist visitors in making informed decisions by offering
 
 ### Target Audience
 
-The intended audience are those who are looking for professional photography services and want to book a session, including: - Individuals and families - engaged/married couples. - maternity and newborn clients
+The intended audience are those who are looking for professional photography services and want to book a session, including:
+
+- Individuals and families
+- engaged/married couples.
+- maternity and newborn clients
 
 ## User Experience (UX)
 

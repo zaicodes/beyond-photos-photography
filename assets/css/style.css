@@ -7,6 +7,12 @@
 html {
   font-size: 10px;
 }
+h1,
+h2,
+button,
+a {
+  font-family: "Montserrat", sans-serif;
+}
 
 /* .navbar {
   height: 12vh;
@@ -64,7 +70,7 @@ header:hover {
 
 .header-content h1 {
   color: white;
-  font-size: 6.2rem;
+  font-size: 5.2rem;
   max-width: 800px;
   font-family: "Montserrat", sans-serif;
 }
@@ -84,3 +90,43 @@ header:hover {
   color: white;
   transition: 0.5s;
 }
+
+/* section 1 */
+
+#section-1 {
+  padding: 100px 20px;
+}
+
+#section-1 h1 {
+  font-size: 5rem;
+}
+
+#section-1 img {
+  height: 600px;
+  filter: grayscale(100%);
+  transition: all 0.5s;
+}
+
+#section-1 img:hover {
+  filter: grayscale(0%);
+  cursor: pointer;
+}
+
+.btn-more {
+  border: none;
+  padding: 18px 22px;
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  font-family: sans-serif;
+  font-size: 1.8rem;
+  transition: 0.5s;
+  border: 1px solid black;
+}
+
+.btn-more:hover {
+  background-color: rgb(255, 255, 255) !important;
+  color: rgb(0, 0, 0);
+  transition: 0.5s;
+}
+
+/* section 2 */
