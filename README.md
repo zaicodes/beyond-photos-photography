@@ -90,7 +90,7 @@ Frequent visitors goals are:
 
 During the planning phase, I used Balsamiq to create wireframes for each page and establish the website's structure.
 
-[home-page-wireframe](https://github.com/zaicodes/beyond-photos-photography/blob/main/documentation/home-page-wireframe.png)
+![home-page-wireframe](https://github.com/zaicodes/beyond-photos-photography/blob/main/documentation/home-page-wireframe.png)
 
 ## Features
 
