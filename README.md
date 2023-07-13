@@ -65,7 +65,7 @@ Frequent visitors goals are:
 
 - The pure white (#ffffff) symbolizes cleanliness, and simplicity. It represents a sense of clarity and openness. On the other hand, the intense black (#000000) conveys strength, authority. It adds a touch of sophistication and elegance to the palette.
 
-- The shade of light grey (#80727B) brings in a sense of neutrality, balance, and professionalism. It provides a subtle contrast between the white and black, creating a harmonious blend. This hue adds a touch of modernity and refinement to the overall palette.
+- The shade of light grey (#F2F2F2) brings in a sense of neutrality, balance, and professionalism. It provides a subtle contrast between the white and black, creating a harmonious blend. This hue adds a touch of modernity and refinement to the overall palette.
 
 - The vibrant red (#FF0000) stands out as a bold accent colour, representing passion, energy, and excitement. It adds a dynamic element to the palette, catching the viewer's attention and creating a focal point. This intense hue conveys a sense of urgency and evokes strong emotions.
 
