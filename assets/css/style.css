@@ -126,6 +126,10 @@ header:hover {
 
 /* Testimonials */
 
+.section-testimonial {
+  padding: 100px 0;
+}
+
 .testimonial-content p {
   font-family: "Montserrat", sans-serif;
   font-size: 1.6rem;
