@@ -201,3 +201,57 @@ header:hover {
 .testimonial-star {
   margin-left: 80px;
 }
+
+/* Services Section */
+
+.section-services {
+  padding: 100px 0;
+}
+
+.section-services h1 {
+  font-family: sans-serif;
+  font-size: 4rem;
+  font-weight: 700;
+  text-transform: capitalize;
+  color: black;
+  text-align: center;
+}
+
+.package-img {
+  background-color: rgb(247, 238, 239);
+  width: 100px;
+  height: 80px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.package-img img {
+  width: 30px !important;
+}
+
+.pricing-content {
+  font-family: sans-serif;
+  font-size: 2.6rem;
+  font-weight: 700;
+  color: black;
+}
+
+.package.card-content {
+  padding: 20px;
+}
+
+.pricing-content img {
+  width: 40px !important;
+}
+
+.pricing-content span {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #c31010;
+}
