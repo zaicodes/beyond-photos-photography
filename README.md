@@ -142,6 +142,7 @@ During the planning phase, I used Balsamiq to create wireframes for each page an
 - [Am I responsive?](https://ui.dev/amiresponsive) To present the website image on a different devices.
 - Google Dev Tools - to test features, and responsiveness and to troubleshoot.
 - [Coolors](https://coolors.co) - to check colour contrast of the website and to create the colour palette.
+- [Favicon-generator](https://favicon.io/favicon-generator/) - to generate a favicon from text for the website.
 
 ## Testing
 
