@@ -204,17 +204,31 @@ header:hover {
 
 /* Services Section */
 
+.section-3 {
+  background-color: #f7eeef;
+}
+
 .section-services {
   padding: 100px 0;
 }
 
-.section-services h1 {
+.section-services h2 {
   font-family: sans-serif;
-  font-size: 4rem;
+  font-size: 2.6rem;
   font-weight: 700;
   text-transform: capitalize;
   color: black;
-  text-align: center;
+  margin: 30px 0 20px 10px;
+}
+
+.package-cart {
+  border-radius: 15px;
+  box-shadow: 10px 10px 10px 10px rgb(222, 221, 221);
+  padding: 0 20px;
+  background-color: white;
+}
+.pricing.content img {
+  width: 30px !important;
 }
 
 .package-img {
@@ -232,16 +246,16 @@ header:hover {
   width: 30px !important;
 }
 
-.pricing-content {
+/* .pricing-content h2 {
   font-family: sans-serif;
   font-size: 2.6rem;
   font-weight: 700;
   color: black;
-}
+} */
 
-.package.card-content {
+/* .package.card-content {
   padding: 20px;
-}
+} */
 
 .pricing-content img {
   width: 40px !important;
@@ -254,4 +268,36 @@ header:hover {
   text-transform: uppercase;
   letter-spacing: 1px;
   color: #c31010;
+}
+
+.pricing-content span {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #c31010;
+}
+.pricing-content p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #c31010;
+  margin-left: 40px;
+  line-height: 1.8;
+}
+
+.third-col {
+  margin-top: -10px;
+}
+
+.section-3 h1 {
+  font-family: sans-serif;
+  font-size: 4rem;
+  font-weight: 700;
+  text-transform: capitalize;
+  color: black;
+  margin-bottom: 30px;
 }
