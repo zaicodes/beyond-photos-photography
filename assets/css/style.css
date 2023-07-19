@@ -301,3 +301,18 @@ header:hover {
   color: black;
   margin-bottom: 30px;
 }
+
+/* Footer Section */
+
+footer {
+  background-color: #222;
+  min-height: 200px;
+}
+
+.footerlogos img {
+  width: 60px !important;
+}
+
+.footerlogos img:hover {
+  opacity: 0.8;
+}
