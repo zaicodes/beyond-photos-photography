@@ -209,7 +209,7 @@ header:hover {
 }
 
 .section-services {
-  padding: 100px 0;
+  padding: 100px 0 50px 0;
 }
 
 .section-services h2 {
@@ -289,6 +289,21 @@ header:hover {
   text-transform: capitalize;
   color: black;
   margin-bottom: 30px;
+}
+
+.section-3 button {
+  padding: 18px 22px;
+  font-size: 1.6rem;
+  font-weight: 500;
+  border: 1px solid #c31010;
+  color: #c31010;
+  transition: all 0.5s;
+  background-color: white;
+}
+
+.section-3 button:hover {
+  background-color: #c31010;
+  color: white;
 }
 
 /* Footer Section */
