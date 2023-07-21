@@ -88,7 +88,7 @@ img {
   place-items: center;
 }
 
-.column-2 {
+.column-1 {
   float: left;
   width: 45%;
   padding: 40px;
@@ -103,9 +103,22 @@ img {
   border: solid 1px red;
 }
 
-.column-2,
+.column-1,
 p {
   font-family: sans-serif;
+}
+
+.column-2 {
+  float: right;
+  width: 45%;
+  padding: 40px;
+  padding-left: 70px;
+  padding-right: 70px;
+  height: 475px;
+  margin: 30px;
+  margin-right: 30px;
+  margin-bottom: 70px;
+  line-height: 2;
 }
 
 .form {
@@ -142,7 +155,7 @@ title {
 }
 
 ::placeholder {
-  font-family: "Quicksand", sans-serif;
+  font-family: sans-serif;
   font-weight: 600;
   font-size: 1.1rem;
   color: #838788;
@@ -152,7 +165,7 @@ title {
 
 input,
 textarea {
-  font-family: "Quicksand", sans-serif;
+  font-family: sans-serif;
   color: #212529;
   font-size: 1.1rem;
 }
