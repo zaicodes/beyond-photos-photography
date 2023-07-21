@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+h1,
+h2,
+button,
+a {
+  font-family: "Montserrat", sans-serif;
+}
+
+/* Navbar Section */
+
+img {
+  width: 120px !important;
+}
+.nav-links {
+  justify-content: end;
+  width: 100%;
+}
+.nav-links a {
+  color: red !important;
+  margin-left: 30px;
+  font-weight: 800;
+  font-size: 1.8rem;
+  position: relative;
+  font-family: "Montserrat", sans-serif;
+}
+
+.nav-links a::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: black;
+  transition: 0.3s;
+}
+
+.nav-links a:focus::before {
+  width: 100%;
+}
+
+.contact::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100% !important;
+  height: 2px;
+  background-color: black;
+  transition: 0.3s;
+  border-bottom: 2px;
+}
+
+/* Contact us - About Section */
+
+/* Footer Section */
+footer {
+  background-color: #222;
+  min-height: 200px;
+}
+
+.footerlogos img {
+  width: 60px !important;
+}
+
+.footerlogos img:hover {
+  opacity: 0.8;
+}
