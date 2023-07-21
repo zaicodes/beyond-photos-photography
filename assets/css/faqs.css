@@ -58,3 +58,85 @@ img {
   transition: 0.3s;
   border-bottom: 2px;
 }
+
+/* FAQs Section */
+.faqs-section {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.faqs-title {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.faq {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.question {
+  /* margin-bottom: 20px; */
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  margin: 10px 0;
+}
+
+.faq.active {
+  border: none;
+}
+
+.Q {
+  background-color: white;
+  color: rgba(0, 0, 0, 0.8);
+  cursor: pointer;
+  font-size: 1.2rem;
+  width: 100%;
+  padding: 2rem 2.5rem;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+}
+
+.Q i {
+  font-size: 1.6rem;
+}
+
+.active,
+Q:hover {
+  background-color: #ffcdcd;
+}
+
+.answer {
+  padding: 2rem 2rem 2.5rem 2rem;
+  font-weight: 500;
+  background-color: white;
+  overflow: hidden;
+  background-color: #ffffff;
+  display: none;
+}
+
+.answer p {
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 1.2rem;
+  line-height: 1.4;
+}
+
+/* Footer Section */
+footer {
+  background-color: #222;
+  min-height: 200px;
+}
+
+.footerlogos img {
+  width: 60px !important;
+}
+
+.footerlogos img:hover {
+  opacity: 0.8;
+}
