@@ -174,8 +174,10 @@ The website was deployed via GitHub Pages. Follow these steps to deploy:
 
 ### Code:
 
-Most of the codes are inspired from the Love Running project.
-The responsiveness of the website are taken from navbar section in bootsrap documents which is found in the Bootstrap website. The rest of bootstap code was taken from the Bootsrap website and the walking through bootsrap section of the course unit.
+- Most of the codes are inspired from the Love Running project.
+- The responsiveness of the website are taken from navbar section in bootsrap documents which is found in the Bootstrap website.
+- The rest of bootstap code was taken from the Bootsrap website and the walking through bootsrap section of the course unit.
+- The FAQ code is from [YouTube](https://www.youtube.com/watch?v=6U-8kIx2oMk)
 
 ### Media:
 
