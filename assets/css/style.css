@@ -107,7 +107,6 @@ header:hover {
 
 #section-1 img:hover {
   filter: grayscale(0%);
-  cursor: pointer;
 }
 #section-1 button {
   padding: 18px 22px;
