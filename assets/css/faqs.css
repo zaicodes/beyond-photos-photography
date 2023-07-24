@@ -127,6 +127,20 @@ Q:hover {
   line-height: 1.4;
 }
 
+.faqs-button {
+  padding: 18px 22px;
+  font-size: 1.6rem;
+  font-weight: 500;
+  border: 1px solid #c31010;
+  color: #c31010;
+  transition: all 0.5s;
+}
+
+.faqs-button:hover {
+  background-color: #c31010;
+  color: white;
+}
+
 /* Footer Section */
 footer {
   background-color: #222;
