@@ -75,146 +75,158 @@
     </nav>
     <!-- Navbar Section End-->
 
-    <!-- Contact us - About Section -->
-
-    <div class="container form-main">
-      <div class="row g-5">
-        <div class="col-lg-12">
-          <div class="column-1">
-            <h1>About me</h1>
-            <p class="mb-5">
-              I discovered a passion for creating things at a young age, and
-              during a darkroom photography class in high school, I realised
-              that photography was my true calling. In university, I explored
-              photography as a means of self-expression and found beauty in
-              capturing real people and their stories. By approaching
-              individuals with care, I authentically portrayed their true
-              selves, forming connections and gaining insights into my own
-              identity. Life itself is a work of art, filled with meaningful
-              moments. As a photographer, I strive to capture these moments with
-              respect and authenticity. If you value genuine connections, let's
-              create something amazing together!
-            </p>
-            <h1 class="mb-3">Let's make something awesome together!</h1>
-            <p>
-              If you would like more info, please fill out the form below so we
-              are able to start a conversation about all of your wants and
-              needs!
-            </p>
-          </div>
-        </div>
-        <div class="col-lg-12">
-          <form class="form column-2">
-            <h1 class="title text-center mb-4">Contact us!</h1>
-
-            <div class="form-group position-relative">
-              <label for="formName" class="d-block">
-                <i class="icon" data-feather="user"></i>
-              </label>
-              <input
-                type="text"
-                id="formName"
-                class="form-control form-control-lg thick"
-                placeholder="Name"
-              />
-            </div>
-
-            <div class="form-group position-relative">
-              <label for="formEmail" class="d-block">
-                <i class="icon" data-feather="mail"></i>
-              </label>
-              <input
-                type="email"
-                id="formEmail"
-                class="form-control form-control-lg thick"
-                placeholder="E-mail"
-              />
-            </div>
-            <div class="form-group position-relative">
-              <label for="formEmail" class="d-block">
-                <i class="icon" data-feather="mail"></i>
-              </label>
-              <input
-                pattern="[0-9]{3}-[0-9]{4}-[0-9]{4}"
-                type="tel"
-                id="formphone"
-                class="form-control form-control-lg thick"
-                placeholder="Phone"
-              />
-            </div>
-            <div class="form-group position-relative">
-              <label for="formcity" class="d-block">
-                <i class="icon" data-feather="mail"></i>
-              </label>
-              <input
-                type="text"
-                id="formcity"
-                class="form-control form-control-lg thick"
-                placeholder="City"
-              />
-            </div>
-            <div>
-              <h1 class="sessions mt-3">
-                What type of session are you looking for?
-              </h1>
-              <input type="radio" name="session" />
-              <label class="sessions">Family Session</label>
-              <input type="radio" name="session" />
-              <label class="sessions">Newborn Session /Maternity Session</label>
-              <input type="radio" name="session" />
-              <label class="sessions">Couple Session</label>
-              <input type="radio" name="session" />
-              <label class="sessions">Potrait Session</label>
-              <input type="radio" name="session" />
-              <label class="sessions">Family Session</label>
-              <br />
-              <input type="radio" name="session" />
-
-              <label class="sessions">Special Inquiry</label>
-            </div>
-            <div class="form-group position-relative">
-              <label class="sessions">Have a specific date in mind ? </label>
-              <input
-                type="date"
-                id="formcity"
-                class="form-control form-control-lg thick"
-                placeholder="Date"
-              />
-            </div>
-            <div>
-              <label class="sessions" for="">Is your date flexible</label>
-
-              <div>
-                <input type="radio" name="session" />
-                <label class="sessions">Yes</label>
-                <input type="radio" name="session" />
-                <label class="sessions">No</label>
-              </div>
-            </div>
-
-            <div class="form-group message">
-              <label class="sessions"
-                >What is your vision? Tell me all about it
-              </label>
-              <textarea
-                id="formMessage"
-                class="form-control form-control-lg"
-                rows="5"
-                placeholder="e.g. How many people, your vision, event or milestone?"
-              ></textarea>
-            </div>
-
-            <div class="text-center">
-              <button type="submit" class="btn mt-5 ms-lg-5">
-                Send message!
-              </button>
-            </div>
-          </form>
-        </div>
+    <!-- About-me Section -->
+    <section class="about-me col-lg-12 lg-5 py-4">
+      <div class="column-1">
+        <h1>About me</h1>
+        <p class="mb-5">
+          I discovered a passion for creating things at a young age, and during
+          a darkroom photography class in high school, I realised that
+          photography was my true calling. In university, I explored photography
+          as a means of self-expression and found beauty in capturing real
+          people and their stories. By approaching individuals with care, I
+          authentically portrayed their true selves, forming connections and
+          gaining insights into my own identity. Life itself is a work of art,
+          filled with meaningful moments. As a photographer, I strive to capture
+          these moments with respect and authenticity. If you value genuine
+          connections, let's create something amazing together!
+        </p>
+        <h1 class="mb-3">Let's make something awesome together!</h1>
+        <p>
+          If you would like more info, please fill out the form below so we are
+          able to start a conversation about all of your wants and needs!
+        </p>
       </div>
-    </div>
+    </section>
+    <!-- End of About-me Section -->
 
-    <!-- End of Contact us - About Section-->
+    <!-- Contact us Section -->
+    <section class="contact-us col-lg-12 lg-5 py-4">
+      <form class="form column-2" action="">
+        <h1 class="title text-center mb-4">Contact us!</h1>
+
+        <div class="form-group position-relative">
+          <label for="fname" class="sessions">First name:</label>
+          <input
+            type="text"
+            id="fname"
+            name="fname"
+            class="form-control form-control-lg thick"
+            required
+          />
+        </div>
+
+        <div class="form-group position-relative">
+          <label for="lname" class="sessions">Last name:</label>
+          <input
+            type="text"
+            id="lname"
+            name="lname"
+            class="form-control form-control-lg thick"
+            required
+          />
+        </div>
+
+        <div class="form-group position-relative">
+          <label for="email" class="sessions">Email:</label>
+          <input
+            type="email"
+            id="email"
+            class="form-control form-control-lg thick"
+            required
+          />
+        </div>
+        <div class="form-group position-relative">
+          <label for="phone" class="sessions">Phone:</label>
+          <input
+            pattern="[0-9]{3}-[0-9]{4}-[0-9]{4}"
+            type="tel"
+            id="phone"
+            name="phone"
+            class="form-control form-control-lg thick"
+            required
+          />
+        </div>
+        <div class="form-group position-relative">
+          <label for="city" class="sessions">City</label>
+          <input
+            type="text"
+            id="city"
+            class="form-control form-control-lg thick"
+            required
+          />
+        </div>
+        <br />
+        <div>
+          <label for="session" class="sessions"
+            >What type of session are you looking for?</label
+          >
+          <select
+            class="sessions"
+            name="session"
+            id="session"
+            size="1"
+            required
+          >
+            <option class="sessions" value=""></option>
+            <option class="sessions" value="newborn">Newborn session</option>
+            <option class="sessions" value="maternity">
+              Maternity session
+            </option>
+            <option class="sessions" value="couple">Couple session</option>
+            <option class="sessions" value="family">Family session</option>
+            <option class="sessions" value="portrait">Portrait session</option>
+            <option class="sessions" value="milestone">
+              Milestone session
+            </option>
+            <option class="sessions" value="special">Special Enquiry</option>
+          </select>
+        </div>
+        <br />
+        <div class="form-group position-relative">
+          <label for="date" class="sessions"
+            >Have a specific date in mind ?
+          </label>
+          <input
+            type="date"
+            id="date"
+            class="form-control form-control-lg thick"
+            placeholder="Date"
+          />
+        </div>
+        <br />
+        <div>
+          <label for="option" class="sessions">Is your date flexible?</label>
+
+          <input type="radio" id="yes" name="option" value="Yes" />
+          <label class="sessions" for="yes">Yes</label>
+          <input type="radio" id="no" name="option" value="No" />
+          <label class="sessions" for="no">No</label>
+        </div>
+        <br />
+
+        <div class="form-group message">
+          <label class="sessions"
+            >What is your vision? Tell me all about it
+          </label>
+          <textarea
+            id="formMessage"
+            class="form-control form-control-lg"
+            rows="5"
+            placeholder="e.g. How many people, your vision, event or any question?"
+            required
+          ></textarea>
+        </div>
+
+        <div class="text-center">
+          <button type="submit" class="btn mt-5 ms-lg-5 py-4">
+            Send message!
+          </button>
+        </div>
+      </form>
+    </section>
+
+    <!-- End of Contact us -->
 
     <!-- Footer section-->
 
