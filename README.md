@@ -92,7 +92,17 @@ Frequent visitors goals are:
 
 During the planning phase, I used Balsamiq to create wireframes for each page and establish the website's structure.
 
-![home-page-wireframe](https://github.com/zaicodes/beyond-photos-photography/blob/main/documentation/home-page-wireframe.png)
+- Home
+  ![Home](https://github.com/zaicodes/beyond-photos-photography/blob/main/documentation/Home.png)
+
+- Gallery
+  ![Gallery](https://github.com/zaicodes/beyond-photos-photography/blob/main/documentation/Gallery.png)
+
+- FAQs
+  ![FAQs](https://github.com/zaicodes/beyond-photos-photography/blob/main/documentation/FAQs.png)
+
+- Contact
+  ![Contact](https://github.com/zaicodes/beyond-photos-photography/blob/main/documentation/Contact.png)
 
 ## Features
 
@@ -128,10 +138,11 @@ During the planning phase, I used Balsamiq to create wireframes for each page an
 ### Languages Used
 
 - HTML5
-- CSS3 and Bootstrap 5
+- CSS3
 
 ### Frameworks, Libraries and Programs Used
 
+- Boostrap 5
 - Google Fonts - to add and import the fonts used in the website.
 - [Heroicons](https://heroicons.com/) - for the icons used in the website.
 - Git - for version control
