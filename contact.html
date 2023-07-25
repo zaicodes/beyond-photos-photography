@@ -76,20 +76,24 @@
     <!-- Navbar Section End-->
 
     <!-- About-me Section -->
-    <section class="about-me col-lg-12 lg-5 py-4">
-      <div class="column-1">
+
+    <section class="about-me py-4">
+      <div class="column-1 container">
         <h1>About me</h1>
-        <p class="mb-5">
-          I discovered a passion for creating things at a young age, and during
-          a darkroom photography class in high school, I realised that
-          photography was my true calling. In university, I explored photography
-          as a means of self-expression and found beauty in capturing real
-          people and their stories. By approaching individuals with care, I
-          authentically portrayed their true selves, forming connections and
-          gaining insights into my own identity. Life itself is a work of art,
-          filled with meaningful moments. As a photographer, I strive to capture
-          these moments with respect and authenticity. If you value genuine
-          connections, let's create something amazing together!
+        <p>
+          In university, I explored photography as a means of self-expression
+          and found beauty in capturing real people and their stories.
+        </p>
+        <p>
+          By approaching individuals with care, I authentically portrayed their
+          true selves, forming connections and gaining insights into my own
+          identity.
+        </p>
+        <p>
+          Life itself is a work of art, filled with meaningful moments. As a
+          photographer, I strive to capture these moments with respect and
+          authenticity. If you value genuine connections, let's create something
+          amazing together!
         </p>
         <h1 class="mb-3">Let's make something awesome together!</h1>
         <p>
@@ -101,129 +105,173 @@
     <!-- End of About-me Section -->
 
     <!-- Contact us Section -->
-    <section class="contact-us col-lg-12 lg-5 py-4">
-      <form class="form column-2" action="">
-        <h1 class="title text-center mb-4">Contact us!</h1>
 
-        <div class="form-group position-relative">
-          <label for="fname" class="sessions">First name:</label>
-          <input
-            type="text"
-            id="fname"
-            name="fname"
-            class="form-control form-control-lg thick"
-            required
-          />
-        </div>
+    <section class="container contact-us">
+      <div class="row gx-lg-5 gy-5">
+        <div class="col-lg-6 col-sm-12">
+          <form class="form p-lg-5" action="">
+            <h1 class="title text-center mb-4">Book your Session!</h1>
 
-        <div class="form-group position-relative">
-          <label for="lname" class="sessions">Last name:</label>
-          <input
-            type="text"
-            id="lname"
-            name="lname"
-            class="form-control form-control-lg thick"
-            required
-          />
-        </div>
+            <div class="form-group position-relative">
+              <label for="fname" class="sessions">First name:</label>
+              <input
+                type="text"
+                id="fname"
+                name="fname"
+                class="form-control form-control-lg thick"
+                required
+              />
+            </div>
 
-        <div class="form-group position-relative">
-          <label for="email" class="sessions">Email:</label>
-          <input
-            type="email"
-            id="email"
-            class="form-control form-control-lg thick"
-            required
-          />
-        </div>
-        <div class="form-group position-relative">
-          <label for="phone" class="sessions">Phone:</label>
-          <input
-            pattern="[0-9]{3}-[0-9]{4}-[0-9]{4}"
-            type="tel"
-            id="phone"
-            name="phone"
-            class="form-control form-control-lg thick"
-            required
-          />
-        </div>
-        <div class="form-group position-relative">
-          <label for="city" class="sessions">City</label>
-          <input
-            type="text"
-            id="city"
-            class="form-control form-control-lg thick"
-            required
-          />
-        </div>
-        <br />
-        <div>
-          <label for="session" class="sessions"
-            >What type of session are you looking for?</label
-          >
-          <select
-            class="sessions"
-            name="session"
-            id="session"
-            size="1"
-            required
-          >
-            <option class="sessions" value=""></option>
-            <option class="sessions" value="newborn">Newborn session</option>
-            <option class="sessions" value="maternity">
-              Maternity session
-            </option>
-            <option class="sessions" value="couple">Couple session</option>
-            <option class="sessions" value="family">Family session</option>
-            <option class="sessions" value="portrait">Portrait session</option>
-            <option class="sessions" value="milestone">
-              Milestone session
-            </option>
-            <option class="sessions" value="special">Special Enquiry</option>
-          </select>
-        </div>
-        <br />
-        <div class="form-group position-relative">
-          <label for="date" class="sessions"
-            >Have a specific date in mind ?
-          </label>
-          <input
-            type="date"
-            id="date"
-            class="form-control form-control-lg thick"
-            placeholder="Date"
-          />
-        </div>
-        <br />
-        <div>
-          <label for="option" class="sessions">Is your date flexible?</label>
+            <div class="form-group position-relative">
+              <label for="lname" class="sessions">Last name:</label>
+              <input
+                type="text"
+                id="lname"
+                name="lname"
+                class="form-control form-control-lg thick"
+                required
+              />
+            </div>
 
-          <input type="radio" id="yes" name="option" value="Yes" />
-          <label class="sessions" for="yes">Yes</label>
-          <input type="radio" id="no" name="option" value="No" />
-          <label class="sessions" for="no">No</label>
-        </div>
-        <br />
+            <div class="form-group position-relative">
+              <label for="email" class="sessions">Email:</label>
+              <input
+                type="email"
+                id="email"
+                class="form-control form-control-lg thick"
+                required
+              />
+            </div>
+            <div>
+              <label for="session" class="sessions"
+                >What type of session are you looking for?</label
+              >
+              <select
+                class="sessions"
+                name="session"
+                id="session"
+                size="1"
+                required
+              >
+                <option class="sessions" value=""></option>
+                <option class="sessions" value="newborn">
+                  Newborn session
+                </option>
+                <option class="sessions" value="maternity">
+                  Maternity session
+                </option>
+                <option class="sessions" value="couple">Couple session</option>
+                <option class="sessions" value="family">Family session</option>
+                <option class="sessions" value="portrait">
+                  Portrait session
+                </option>
+                <option class="sessions" value="milestone">
+                  Milestone session
+                </option>
+                <option class="sessions" value="special">
+                  Special Enquiry
+                </option>
+              </select>
+            </div>
+            <div class="form-group position-relative">
+              <label for="date" class="sessions"
+                >Have a specific date in mind ?
+              </label>
+              <input
+                type="date"
+                id="date"
+                class="form-control form-control-lg thick"
+              />
+            </div>
+            <div class="form-group message">
+              <label class="sessions"
+                >What is your vision? Tell me all about it
+              </label>
+              <textarea
+                id="formMessage"
+                class="form-control form-control-lg"
+                rows="5"
+                placeholder="e.g. How many people, your vision, event or any question?"
+                required
+              ></textarea>
+            </div>
 
-        <div class="form-group message">
-          <label class="sessions"
-            >What is your vision? Tell me all about it
-          </label>
-          <textarea
-            id="formMessage"
-            class="form-control form-control-lg"
-            rows="5"
-            placeholder="e.g. How many people, your vision, event or any question?"
-            required
-          ></textarea>
+            <div class="text-center">
+              <button type="submit" class="btn mt-5 ms-lg-5 py-4">
+                Book Now!
+              </button>
+            </div>
+          </form>
         </div>
-
-        <div class="text-center">
-          <button type="submit" class="btn mt-5 ms-lg-5 py-4">
-            Send message!
-          </button>
+        <div class="col-lg-6 col-sm-12">
+          <div>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2483.104063129309!2d-0.13399018795573686!3d51.51130681030055!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487604d248ad83b7%3A0x867d7d1b553a3c7e!2s5%20Lisle%20St%2C%20London%20WC2H%207BF!5e0!3m2!1sen!2suk!4v1686826899133!5m2!1sen!2suk"
+              height="450"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+          <div class="mt-4">
+            <div>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+                class="contact-icons"
+              >
+                <path
+                  d="M1.5 8.67v8.58a3 3 0 003 3h15a3 3 0 003-3V8.67l-8.928 5.493a3 3 0 01-3.144 0L1.5 8.67z"
+                />
+                <path
+                  d="M22.5 6.908V6.75a3 3 0 00-3-3h-15a3 3 0 00-3 3v.158l9.714 5.978a1.5 1.5 0 001.572 0L22.5 6.908z"
+                />
+              </svg>
+              <span>name@email.com</span>
+            </div>
+            <div>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+                class="contact-icons"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M1.5 4.5a3 3 0 013-3h1.372c.86 0 1.61.586 1.819 1.42l1.105 4.423a1.875 1.875 0 01-.694 1.955l-1.293.97c-.135.101-.164.249-.126.352a11.285 11.285 0 006.697 6.697c.103.038.25.009.352-.126l.97-1.293a1.875 1.875 0 011.955-.694l4.423 1.105c.834.209 1.42.959 1.42 1.82V19.5a3 3 0 01-3 3h-2.25C8.552 22.5 1.5 15.448 1.5 6.75V4.5z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+              <span>012 34 56789</span>
+            </div>
+            <div class="main-location">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+                class="contact-icons location-icon"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M11.54 22.351l.07.04.028.016a.76.76 0 00.723 0l.028-.015.071-.041a16.975 16.975 0 001.144-.742 19.58 19.58 0 002.683-2.282c1.944-1.99 3.963-4.98 3.963-8.827a8.25 8.25 0 00-16.5 0c0 3.846 2.02 6.837 3.963 8.827a19.58 19.58 0 002.682 2.282 16.975 16.975 0 001.145.742zM12 13.5a3 3 0 100-6 3 3 0 000 6z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+              <span
+                >123 House Name
+                <br />
+                Street name
+                <br />
+                City
+                <br />
+                Country</span
+              >
+            </div>
+          </div>
         </div>
-      </form>
+      </div>
     </section>
 
     <!-- End of Contact us -->
