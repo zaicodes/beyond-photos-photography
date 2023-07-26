@@ -5,7 +5,7 @@
 }
 
 html {
-  font-size: 13px;
+  font-size: 10px;
 }
 h1,
 h2,
@@ -17,14 +17,18 @@ a {
 /* Navbar Section */
 
 img {
-  width: 120px !important;
+  width: 120px;
 }
 .nav-links {
   justify-content: end;
   width: 100%;
 }
+
+nav.navbar a.nav-link {
+  color: red;
+}
+
 .nav-links a {
-  color: red !important;
   margin-left: 30px;
   font-weight: 800;
   font-size: 1.8rem;
@@ -52,7 +56,7 @@ img {
   position: absolute;
   bottom: 0;
   left: 0;
-  width: 100% !important;
+  width: 100%;
   height: 2px;
   background-color: black;
   transition: 0.3s;
@@ -78,7 +82,6 @@ img {
 }
 
 .question {
-  /* margin-bottom: 20px; */
   border: 1px solid rgba(0, 0, 0, 0.2);
   margin: 10px 0;
 }
@@ -91,7 +94,7 @@ img {
   background-color: white;
   color: rgba(0, 0, 0, 0.8);
   cursor: pointer;
-  font-size: 1.2rem;
+  font-size: 1.6rem;
   width: 100%;
   padding: 2rem 2.5rem;
   border: none;
@@ -123,7 +126,7 @@ Q:hover {
 
 .answer p {
   color: rgba(0, 0, 0, 0.7);
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   line-height: 1.4;
 }
 
@@ -148,7 +151,7 @@ footer {
 }
 
 .footerlogos img {
-  width: 60px !important;
+  width: 60px;
 }
 
 .footerlogos img:hover {

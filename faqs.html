@@ -50,7 +50,7 @@
             <ul class="navbar-nav me-5 mb-2 mb-lg-0">
               <li class="nav-item">
                 <a
-                  class="nav-link px-3 py-4 active"
+                  class="nav-link px-3 py-4"
                   aria-current="page"
                   href="index.html"
                   >Home</a
@@ -263,26 +263,6 @@
       >
     </div>
 
-    <script>
-      var acc = document.getElementsByClassName("Q");
-      var i;
-
-      for (i = 0; i < acc.length; i++) {
-        acc[i].addEventListener("click", function () {
-          this.classList.toggle("active");
-          this.parentElement.classList.toggle("active");
-
-          var answer = this.nextElementSibling;
-
-          if (answer.style.display === "block") {
-            answer.style.display = "none";
-          } else {
-            answer.style.display = "block";
-          }
-        });
-      }
-    </script>
-
     <!-- End Of FAQs Section-->
 
     <!-- Footer section-->
@@ -326,6 +306,33 @@
         </div>
       </div>
     </footer>
+    <script>
+      var acc = document.getElementsByClassName("Q");
+      var i;
+      var currentOpen = null;
+      for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function () {
+          if (currentOpen && currentOpen !== this) {
+            currentOpen.classList.remove("active");
+            currentOpen.parentElement.classList.remove("active");
+            currentOpen.nextElementSibling.style.display = "none";
+          }
+
+          this.classList.toggle("active");
+          this.parentElement.classList.toggle("active");
+
+          var answer = this.nextElementSibling;
+
+          if (answer.style.display === "block") {
+            answer.style.display = "none";
+            currentOpen = null;
+          } else {
+            answer.style.display = "block";
+            currentOpen = this;
+          }
+        });
+      }
+    </script>
     <!-- End of Footer section-->
   </body>
 </html>
