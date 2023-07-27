@@ -306,7 +306,7 @@ header {
   width: auto;
   padding: 100px 0;
 }
-.container {
+.container-confirmation {
   text-align: center;
   display: block;
   justify-content: space-around;
@@ -318,13 +318,13 @@ header {
   color: red;
   margin-bottom: 50px;
 }
-.container h3 {
+.container-confirmation h3 {
   font-size: 250%;
   text-align: center;
   color: #3f3f3f;
 }
 
-.container p {
+.container-confirmation p {
   font-size: 200%;
   text-align: center;
   color: #3f3f3f;
