@@ -298,6 +298,38 @@ header {
   color: white;
 }
 
+/* Confirmation */
+
+.confirmation {
+  background-color: #f2f2f2;
+  height: 365px;
+  width: auto;
+  padding: 100px 0;
+}
+.container {
+  text-align: center;
+  display: block;
+  justify-content: space-around;
+}
+.thank-you h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 400%;
+  font-weight: 800;
+  color: red;
+  margin-bottom: 50px;
+}
+.container h3 {
+  font-size: 250%;
+  text-align: center;
+  color: #3f3f3f;
+}
+
+.container p {
+  font-size: 200%;
+  text-align: center;
+  color: #3f3f3f;
+}
+
 /* Footer Section */
 
 footer {
