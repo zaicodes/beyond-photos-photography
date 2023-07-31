@@ -204,6 +204,8 @@ I would like to extend my heartfelt appreciation to the individuals who offered 
 
 - Peter W. – for the weekly stand-ups which were very helpful and informative.
 
-- Narender S. - my mentor for checking my progress and providing helpful feedback.
+- Narender S. - my mentor, for checking my progress and providing helpful feedback.
 
 - Asim S. (Preply) – an online tutor, who helped me learn how to code and develop this skill (highly recommend him).
+
+- Harry D. - a CI mentor, for taking the time to answer my peer code review post in slack and for all the valuable feedback.
