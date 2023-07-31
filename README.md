@@ -85,7 +85,7 @@ Frequent visitors goals are:
 
 ### Imagery:
 
-- The [image](https://unsplash.com/photos/mEZ3PoFGs_k) on hero section in the home page was chosen to be attractive, welcoming and in-keeping with the theme of the site.
+- The image on hero section in the home page was chosen to be attractive, welcoming and in-keeping with the theme of the site.
 - The images on the other pages were chosen to be relevant to the content of the page and to showcase the work of the photographer, it follows the style and complements the colour palette of the site.
 
 ## Wireframes
