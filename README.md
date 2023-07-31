@@ -1,5 +1,11 @@
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
+# Beyond Photos Photography
+
+![Beyond-Photos-Photography](https://github.com/zaicodes/beyond-photos-photography/blob/main/documentation/testing/website.png)
+
+[You can view the website here](https://zaicodes.github.io/beyond-photos-photography/index.html)
+
 ## Project Goals
 
 ### Initial discussion:
@@ -157,19 +163,7 @@ During the planning phase, I used Balsamiq to create wireframes for each page an
 
 ## Testing
 
-### Validator Testing
-
-### Testing User Stories from the User Experience (UX) Section
-
-#### First Time Visitor Goals
-
-#### Returning Visitor Goals
-
-### Fixed Bugs
-
-### Unfixed Bugs
-
-### Further Testing
+- You can view testing [here](https://github.com/zaicodes/beyond-photos-photography/blob/main/TESTING.md)
 
 ## Deployment
 
@@ -179,7 +173,7 @@ The website was deployed via GitHub Pages. Follow these steps to deploy:
 - In the source section drop-down menu, choose the Main Branch and click "Save".
 - The page will refresh automatically, and a ribbon display will appear, confirming the successful deployment.
 
-- You can access the live link by clicking [here](link here).
+- You can access the live link by clicking [here](https://zaicodes.github.io/beyond-photos-photography/index.html).
 
 ## Credits
 
