@@ -79,7 +79,9 @@ Frequent visitors goals are:
 
 ### Logo:
 
-![Logo](https://github.com/zaicodes/beyond-photos-photography/blob/main/assets/images/navbarlogo.png)
+![Logo](https://github.com/zaicodes/beyond-photos-photography/blob/main/documentation/navbarlogo.png)
+
+![Logo](https://github.com/zaicodes/beyond-photos-photography/blob/main/documentation/navbarlogo-removebg-preview.png)
 
 - The logo was created using [FreeLogoDesign](https://www.freelogodesign.org/) and it consists of the name of the website under a heart shape. The heart represents warmth and it aims to attract and gives a welcoming sense to the users.
 
