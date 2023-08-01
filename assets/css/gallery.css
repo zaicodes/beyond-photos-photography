@@ -63,7 +63,7 @@ nav.navbar a.nav-link {
 
 /* Gallery*/
 
-.gallery-title {
+.gallery-title h2{
   font-size: 5rem;
   font-family: "Montserrat", sans-serif;
 }
