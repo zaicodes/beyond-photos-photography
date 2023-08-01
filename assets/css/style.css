@@ -70,18 +70,20 @@ header {
   font-family: "Montserrat", sans-serif;
 }
 
-.header-content button {
+.header-content .button {
   font-family: sans-serif;
   border: none;
+  display: inline-block;
   padding: 18px 22px;
   background-color: white;
   color: black;
   font-weight: 600;
   font-size: 1.8rem;
   transition: 0.5s;
+  text-decoration: none;
 }
 
-.header-content button:hover {
+.header-content .button:hover {
   background-color: black;
   color: white;
   transition: 0.5s;
@@ -102,18 +104,20 @@ header {
   transition: all 0.5s;
 }
 
-.section-1 button {
+.section-1 .button {
   font-family: sans-serif;
   padding: 18px 22px;
+  display: inline-block;
   font-size: 1.6rem;
   border: 1px solid #c31010;
   font-weight: 600;
   color: #c31010;
   transition: all 0.5s;
   background-color: white;
+  text-decoration: none;
 }
 
-.section-1 button:hover {
+.section-1 .button:hover {
   background-color: #c31010;
   color: white;
 }
@@ -142,8 +146,10 @@ header {
   color: black;
 }
 
-.testimonial-content button {
+.testimonial-content .button {
   font-family: sans-serif;
+  display: inline-block;
+  text-decoration: none;
   padding: 18px 22px;
   font-size: 1.6rem;
   font-weight: 600;
@@ -152,7 +158,7 @@ header {
   transition: all 0.5s;
 }
 
-.testimonial-content button:hover {
+.testimonial-content .button:hover {
   background-color: #c31010;
   color: white;
 }
@@ -201,6 +207,7 @@ header {
 
 .section-3 {
   background-color: #f7eeef;
+  padding-bottom: 50px;
 }
 
 .section-services {
@@ -286,7 +293,7 @@ header {
   margin-bottom: 30px;
 }
 
-.section-3 button {
+.section-3 .button {
   font-family: sans-serif;
   padding: 18px 22px;
   font-size: 1.6rem;
@@ -295,9 +302,10 @@ header {
   color: #c31010;
   transition: all 0.5s;
   background-color: white;
+  text-decoration: none;
 }
 
-.section-3 button:hover {
+.section-3 .button:hover {
   background-color: #c31010;
   color: white;
 }
