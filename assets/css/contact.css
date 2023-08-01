@@ -109,10 +109,10 @@ form {
   position: relative;
 }
 .main-location span {
-  margin-left: 30px;
+  margin-left: 20px;
 }
 .contact-icons {
-  width: 30px;
+  font-size: 30px;
   color: red;
 }
 .location-icon {
