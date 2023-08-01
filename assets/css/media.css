@@ -29,6 +29,15 @@
   .about-me {
     padding: 0 40px !important;
   }
+  .about-me .column-1 {
+    padding: 0px 0px;
+    line-height: 1.6;
+  }
+  .column-2 img {
+    width: 100%;
+    border-radius: 15px;
+    height: 300px;
+  }
 }
 @media (max-width: 1015px) {
   form {
