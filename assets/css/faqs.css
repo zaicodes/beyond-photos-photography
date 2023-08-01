@@ -129,6 +129,8 @@ Q:hover {
 
 .faqs-button {
   font-family: sans-serif;
+  display: inline-block;
+  text-decoration: none;
   padding: 18px 22px;
   font-size: 1.6rem;
   font-weight: 600;
