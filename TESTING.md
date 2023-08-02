@@ -28,6 +28,7 @@ Throughout the entire development process, I conducted continuous testing, makin
 
 - For better image optimization, all images were converted to Webp files using cloudconvert.com, replacing the previous png/jpeg formats.
 
+
 ### Upon submitting my website for peer code review on Slack, several points were raised by mentor Harry Dhillon:
 
 - The social media icons in the footer had no links. I promptly added links for all 3 social media platforms.
@@ -52,9 +53,10 @@ Throughout the entire development process, I conducted continuous testing, makin
 
 - Converted all photos to webp format in both the Gallery page and the gallery section on the index page using cloudconvert.com.
 
+
 ### Additionally, the following suggestions from Narender were also addressed on my final mentor session:
 
-- Placed <nav> inside the <header> element.
+- Placed nav inside the header element.
 
 - Consolidated all common CSS codes, such as navbar and footer styles, into Style.css to avoid redundancy.
 
