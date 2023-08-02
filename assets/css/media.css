@@ -108,4 +108,11 @@
     object-fit: cover;
     transition: all 0.5s;
   }
+
+  .gallery-content {
+    opacity: 1;
+  }
+  .gallery-1 {
+    cursor: auto;
+  }
 }
