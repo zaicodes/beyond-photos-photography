@@ -155,6 +155,12 @@ title {
   padding: 0.5rem 1.8rem;
 }
 
+#formMessage::placeholder {
+  color: rgb(182, 181, 181);
+  font-weight: 200;
+  font-size: 1.3rem;
+}
+
 ::placeholder {
   font-family: sans-serif;
   font-weight: 600;
