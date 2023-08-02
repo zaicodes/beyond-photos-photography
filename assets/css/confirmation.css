@@ -1,0 +1,30 @@
+.confirmation {
+    background-color: #f2f2f2;
+    height: 365px;
+    width: auto;
+    padding: 100px 0;
+  }
+  .container-confirmation {
+    text-align: center;
+    display: block;
+    justify-content: space-around;
+  }
+  .thank-you h1 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 400%;
+    font-weight: 800;
+    color: red;
+    margin-bottom: 50px;
+  }
+  .container-confirmation h3 {
+    font-size: 250%;
+    text-align: center;
+    color: #3f3f3f;
+  }
+  
+  .container-confirmation p {
+    font-size: 200%;
+    text-align: center;
+    color: #3f3f3f;
+  }
+  
