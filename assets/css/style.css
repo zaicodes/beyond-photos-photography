@@ -16,9 +16,13 @@ a {
 
 /* Navbar Section */
 
-img {
+nav img {
   width: 120px;
 }
+img {
+width: 120px;
+}
+
 .nav-links {
   justify-content: end;
   width: 100%;
@@ -57,7 +61,7 @@ header {
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
-  height: 88vh;
+  height: 90vh;
   transition: 0.5s;
   display: flex;
   align-items: center;
