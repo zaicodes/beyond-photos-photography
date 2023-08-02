@@ -16,7 +16,7 @@ a {
 
 /* Navbar Section */
 
-nav img {
+.nav-logo {
   width: 120px;
 }
 img {
@@ -400,4 +400,7 @@ footer {
 
 .footerlogos img:hover {
   opacity: 0.8;
+}
+.footer-main-logo {
+  width: 120px;
 }

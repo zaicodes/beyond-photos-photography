@@ -1,55 +1,3 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-html {
-  font-size: 10px;
-}
-h1,
-h2,
-button,
-a {
-  font-family: "Montserrat", sans-serif;
-}
-
-/* Navbar Section */
-
-img {
-  width: 120px;
-}
-.nav-links {
-  justify-content: end;
-  width: 100%;
-}
-
-nav.navbar a.nav-link {
-  color: red;
-}
-
-.nav-links a {
-  margin-left: 30px;
-  font-weight: 800;
-  font-size: 1.8rem;
-  position: relative;
-  font-family: "Montserrat", sans-serif;
-}
-
-.nav-links a::before {
-  content: "";
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 0;
-  height: 2px;
-  background-color: black;
-  transition: 0.3s;
-}
-
-.nav-links a:focus::before {
-  width: 100%;
-}
 
 .faqs::before {
   content: "";
@@ -142,18 +90,4 @@ Q:hover {
 .faqs-button:hover {
   background-color: #c31010;
   color: white;
-}
-
-/* Footer Section */
-footer {
-  background-color: #222;
-  min-height: 200px;
-}
-
-.footerlogos img {
-  width: 60px;
-}
-
-.footerlogos img:hover {
-  opacity: 0.8;
 }
