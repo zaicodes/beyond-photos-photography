@@ -55,7 +55,7 @@ nav.navbar a.nav-link {
 
 /* Header section */
 
-header {
+.header-section {
   background-image: url(https://images.unsplash.com/photo-1606685544086-ce4ab1b91c21?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=880&q=80);
   background-position: 0% 5%;
   background-size: cover;
