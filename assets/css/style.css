@@ -153,14 +153,14 @@ nav.navbar a.nav-link {
   }
   
   .gallery-heading {
-  font-family: Montserrat, sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 25px;
   font-weight: 300;
   color: red;
   text-align: center;
   }
   .gallery-description {
-  font-family: Montserrat, sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 18px;
   font-weight: 400;
   color: #3f3f3f;
