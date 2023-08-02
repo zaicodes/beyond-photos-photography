@@ -113,7 +113,7 @@ confirmation.html
 ![confirmation.html](https://github.com/zaicodes/beyond-photos-photography/blob/main/documentation/testing/confirmation.html.png)
 
 CSS validator
-![CSS](https://github.com/zaicodes/beyond-photos-photography/blob/main/documentation/testing/CSS.validator.html.png)
+![CSS](https://github.com/zaicodes/beyond-photos-photography/blob/main/documentation/testing/cssvalidator.html.png)
 
 
 ## Testing User Stories from the User Experience (UX) Section
