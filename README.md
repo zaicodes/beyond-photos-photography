@@ -162,6 +162,8 @@ During the planning phase, I used Balsamiq to create wireframes for each page an
 - Google Dev Tools - to test features, and responsiveness and to troubleshoot.
 - [Coolors](https://coolors.co) - to check colour contrast of the website and to create the colour palette.
 - [Favicon-generator](https://favicon.io/favicon-generator/) - to generate a favicon from text for the website.
+- [Image-Resizer](https://imageresizer.com/) - to resize the photos on testimonial section in home page.
+- [cloudconvert](https://cloudconvert.com/) - to convert images type from PNG/JPG to WEBP.
 
 ## Testing
 
@@ -181,10 +183,15 @@ The website was deployed via GitHub Pages. Follow these steps to deploy:
 
 ### Code:
 
-- Most of the codes are inspired from the Love Running project.
-- The responsiveness of the website are taken from navbar section in bootsrap documents which is found in the Bootstrap website.
-- The rest of bootstap code was taken from the Bootsrap website and the walking through bootsrap section of the course unit.
+- The code is inspired from the Love Running project as well as The Bootstrap project.
+- The Navbar Toggle was taken from the Bootstrap website.
+- The rest of Bootstrap code including responsiveness was taken from the Bootstrap website.
+- The hover effect on Gallery images is from [this link](https://codepen.io/knyttneve/pen/YgZbLO)
 - The FAQ code is from [YouTube](https://www.youtube.com/watch?v=6U-8kIx2oMk)
+- The meta element on confirmation.html that redirect user to home page was taking from [this tutorial](https://www.tutorialspoint.com/How-to-automatically-redirect-a-Web-Page-to-another-URL).
+- In contact.html, code that helped me position photo on the side with text on the the other side on the same section was inspired from [here](https://www.digitalocean.com/community/tutorials/how-to-build-the-about-me-section-of-your-website-with-css-section-2).
+- Contact us form was inspired from [here](https://freefrontend.com/css-contact-forms/) and [here](https://www.peoplemetrics.com/contact). 
+
 
 ### Media:
 
@@ -195,8 +202,9 @@ All images used are from:
 
 ### Website Content:
 
-The website's information content was inspired by the following Photographer's page:
+- Some of the website's information content was inspired by the following Photographer's page:
 https://www.mirandamazza.com/
+- The rest of the website text content was created and written by me.
 
 ### Acknowledgements
 
@@ -208,4 +216,4 @@ I would like to extend my heartfelt appreciation to the individuals who offered 
 
 - Asim S. (Preply) – an online tutor, who helped me learn how to code and develop this skill (highly recommend him).
 
-- Harry D. - a CI mentor, for taking the time to answer my peer code review post in slack and for all the valuable feedback.
+- Harry D. - a CI mentor, for taking the time to answer my peer code review post on slack and for all the valuable feedback.
