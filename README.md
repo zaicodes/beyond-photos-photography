@@ -145,7 +145,11 @@ The gallery page boasts an array of photos showcasing the photographer's unique 
 ### Testimonials
 ![testimonials](https://github.com/zaicodes/beyond-photos-photography/blob/main/documentation/testing/testimonial.png)
 
-The Testimonials section showcases customer reviews, providing valuable insights for new users who are exploring the website for the first time. This responsive section optimizes the display based on the screen size: all three testimonials appear on the same line on large screens, two across above one on two lines on medium screens, and individually on three lines for smaller screens. This ensures that users have a seamless and user-friendly experience, regardless of the device they are using to access the site.
+The Testimonials section showcases customer reviews, providing valuable insights for new users who are exploring the website for the first time. 
+
+![testimonials](https://github.com/zaicodes/beyond-photos-photography/blob/main/documentation/testing/testimonial-small-screen.png)
+
+This responsive section optimizes the display based on the screen size: all three testimonials appear on the same line on large screens, and individually on three lines for medium and smaller screens. This ensures that users have a seamless and user-friendly experience, regardless of the device they are using to access the site.
 
 ### Services
 ![services](https://github.com/zaicodes/beyond-photos-photography/blob/main/documentation/testing/services.png)
