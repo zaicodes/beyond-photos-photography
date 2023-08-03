@@ -89,6 +89,9 @@ Throughout the entire development process, I conducted continuous testing, makin
 
 - Adding description meta tags to all pages for better search engine optimization and user understanding.
 
+- Making the social links open in a new tab by adding the target=”_blank” and rel=”noopener” attributes.
+
+
 
 ## Validator Testing
 
@@ -184,6 +187,47 @@ Engaging with social media or Community: Loyal and enthusiastic frequent visitor
 
 ## Lighthouse
 
+To assess the performance, accessibility, best practices, and SEO of the website, I utilized Lighthouse, a powerful tool available within the Chrome Developer Tools. This enabled me to thoroughly test and evaluate different aspects of the website's performance, ensuring it meets the highest standards across all key areas.
+
+The following are the results:
+
+![index desktop](https://github.com/zaicodes/beyond-photos-photography/blob/main/documentation/testing/index-desktop.png)
+
+
+![index mobile](https://github.com/zaicodes/beyond-photos-photography/blob/main/documentation/testing/index-mobile.png)
+
+
+![index issue](https://github.com/zaicodes/beyond-photos-photography/blob/main/documentation/testing/index-issue.png)
+
+This particular issue was identified not only in the desktop Lighthouse report but also in the mobile Lighthouse report. Initially there were varying sizes of the photos used in the gallery section. I took the initiative to reduce their dimensions, ensuring that all photos appear consistent and presentable to users across different devices.
+
+Although resolving this issue was an option, I made a conscious decision not to amend it for the sake of my website's UI. The consistent photo sizes add a fixed and visually appealing element to the page, enhancing the overall user experience. 
+
+![faqs desktop](https://github.com/zaicodes/beyond-photos-photography/blob/main/documentation/testing/faqs-desktop.png)
+
+
+![faqs mobile](https://github.com/zaicodes/beyond-photos-photography/blob/main/documentation/testing/faqs-mobile.png)
+
+
+![gallery desktop](https://github.com/zaicodes/beyond-photos-photography/blob/main/documentation/testing/gallery-desktop.png)
+
+![gallery mobile](https://github.com/zaicodes/beyond-photos-photography/blob/main/documentation/testing/gallery-mobile.png)
+
+
+![contact desktop](https://github.com/zaicodes/beyond-photos-photography/blob/main/documentation/testing/contact-desktop.png)
+
+
+![contact mobile](https://github.com/zaicodes/beyond-photos-photography/blob/main/documentation/testing/contact-mobile.png)
+
+The specific issue that surfaced in the desktop Lighthouse report is related to the integration of the Google Map used on the page. Given the significance of this map for my project, I encountered difficulties in resolving the problem. Despite my efforts, the issue persisted. Due to the map's essential role in the project, I have made the decision to leave it as is for the time being, ensuring that users can continue to access and utilize the map's functionalities on the desktop version of the website.
+
+![contact issue 1](https://github.com/zaicodes/beyond-photos-photography/blob/main/documentation/testing/contact-issue1.png)
+
+During the testing with Lighthouse on mobile devices, I encountered a related issue caused by the image aspect ratio. Initially, the image's height and width settings made it appear stretched on small screens. However, I was able to resolve this concern by incorporating a media query, following the advice provided by Harry. Since maintaining proper image aspect ratio is crucial for the success of my project, I decided to retain this solution as it effectively addressed the problem and ensured an optimal visual presentation on all devices.
+
+![contact issue 2](https://github.com/zaicodes/beyond-photos-photography/blob/main/documentation/testing/contact-issue2.png)
+
+
 ## Cross-browser Testing
 
 - Google Chrome
@@ -209,5 +253,23 @@ The results were outstanding, as the site loaded seamlessly and operated flawles
 
 
 ## Further Testing
+
+To ensure the functionality and responsiveness of my website, I conducted comprehensive testing using various browsers, including Google Chrome, Safari, and Mozilla Firefox, on different devices such as the MacBook Pro 14-inch and iPhone 13 Pro.
+
+### Testing Links:
+
+On the index page, I thoroughly tested each link, and they all worked as expected. Links leading to external pages, such as the social media links, opened correctly in separate browser tabs. The same meticulous testing was performed on the gallery page, faqs page, contact page and even the confirmation page. All links functioned correctly, and external links opened in separate tabs as intended.
+
+### Contact Us Form Testing:
+
+I thoroughly tested the contact us form to ensure its functionality. When attempting to submit the form without filling in any input fields, the form correctly directed users to fill in the first name field. After providing the first name, I tried submitting again, and the form guided me to fill out the last name field. The process continued seamlessly, prompting me to fill the email etc.
+
+I experimented with different combinations of filled and empty fields. Whenever a field was left empty, the form accurately directed me to fill it in before submission. Furthermore, I conducted thorough testing on the select option drop-down list in the form. If the user failed to select an option from the drop-down list, the form promptly reminded them to complete the other required fields before submission.
+
+Incorporating date selection in the form, I meticulously tested various scenarios. To ensure data accuracy and validity, I strictly prevented users from selecting dates before 4th August by setting it as the start date. If a user attempted to leave the date unselected, the form would prompt them to choose a date before proceeding. Additionally, the textarea was set to require a minimum of 10 characters to prevent submissions without any content.
+
+Even when the form was submitted with minimal information or left completely empty, the form provided clear instructions on the missing fields, guiding users to complete the necessary information before successful submission. Once the form was successfully submitted, it would open the confirmation page in the same browser window. After a few seconds, the confirmation page would automatically redirect the user back to the home page, creating a seamless user experience. This feature ensures that users receive instant confirmation while effortlessly navigating back to the main page.
+
+Through rigorous testing, I ensured that the contact us form works seamlessly, providing users with a smooth and user-friendly experience for getting in touch with the photographer.
 
 
