@@ -2,7 +2,7 @@
 
 # Testing
 
-Throughout the entire development process, I conducted continuous testing, making use of Chrome developer tools to identify and troubleshoot any issues as I progressed.
+Throughout the entire development process, I conducted continuous testing, making use of Chrome developer tools to identify and troubleshoot any issues as I progressed. The code was testing on both local host and after published website too.
 
 ## Mentors feedback:
 
@@ -99,7 +99,18 @@ Throughout the entire development process, I conducted continuous testing, makin
 
 The HTML on all pages of the website underwent validation using the W3C validator. Additionally, the style.css file was also validated using the same tool for CSS validation.
 
-- The website is valid with no errors or warnings, view results below:
+![validator error](https://github.com/zaicodes/beyond-photos-photography/blob/main/documentation/testing/validator.error1.png)
+
+During the initial validation testing, I encountered a persistent error across all pages. The issue was caused by an extra span code present in the navbar, which was included in the Bootstrap code I found on the Bootstrap website. 
+
+To fix this, I performed a test by removing the unnecessary span code and found that the website continued to function properly without any adverse effects. Consequently, I decided to remove the extra span code to ensure that this error did not appear during further testing.
+
+![validator warning](https://github.com/zaicodes/beyond-photos-photography/blob/main/documentation/testing/validator.warning.png)
+
+Additionally, on the index page, there were three warnings presented after testing the code on the validator. These warnings indicated that the h1 elements should be used as top-level headings outside the section, at the top. However, in this case, the h1 elements were placed within the section. To address this issue, I made the necessary changes by converting these h1 elements to div and h2 elements. By doing so, I resolved the warnings and ensured that the proper hierarchy of heading elements was maintained within the sections.
+
+
+- Final validation results:
 
 index.html
 ![index.html](https://github.com/zaicodes/beyond-photos-photography/blob/main/documentation/testing/index.html.png)
@@ -299,6 +310,7 @@ I conducted thorough testing of the website across various internet browsers, in
 
 
 ## Compatibility and Responsiveness Testing
+
 I thoroughly conducted testing of the site on various devices, including my desktop monitor, HP ENVY x360 15.6" laptop, Samsung Galaxy S23 Android smartphone, Apple iPhone 13 Pro Max, and Samsung Galaxy S7+ tablet.
 
 The results were outstanding, as the site loaded seamlessly and operated flawlessly on all these devices. Furthermore, the content adapted perfectly to each screen size as intended.
@@ -342,15 +354,17 @@ The results were outstanding, as the site loaded seamlessly and operated flawles
 
 ## Further Testing
 
-To ensure the functionality and responsiveness of my website, I conducted comprehensive testing using various browsers, including Google Chrome, Safari, and Mozilla Firefox, on different devices such as the MacBook Pro 14-inch and iPhone 13 Pro.
+To ensure the functionality and responsiveness of my website, I conducted comprehensive testing on both local host and on published website. 
 
 ### Testing Links:
 
-On the index page, I thoroughly tested each link, and they all worked as expected. Links leading to external pages, such as the social media links, opened correctly in separate browser tabs. The same meticulous testing was performed on the gallery page, faqs page, contact page and even the confirmation page. All links functioned correctly, and external links opened in separate tabs as intended.
+On the index page, I thoroughly tested each link, and they all worked as expected. I did this on both local host and published website. Links leading to external pages, such as the social media links, opened correctly in separate browser tabs. The same meticulous testing was performed on the gallery page, faqs page, contact page and even the confirmation page. All links functioned correctly, and external links opened in separate tabs as intended.
 
 ### Contact Us Form Testing:
 
-I thoroughly tested the contact us form to ensure its functionality. When attempting to submit the form without filling in any input fields, the form correctly directed users to fill in the first name field. After providing the first name, I tried submitting again, and the form guided me to fill out the last name field. The process continued seamlessly, prompting me to fill the email etc.
+I thoroughly tested the contact us form on both local host stage and published product, to ensure its functionality. 
+
+When attempting to submit the form without filling in any input fields, the form correctly directed users to fill in the first name field. After providing the first name, I tried submitting again, and the form guided me to fill out the last name field. The process continued seamlessly, prompting me to fill the email etc.
 
 I experimented with different combinations of filled and empty fields. Whenever a field was left empty, the form accurately directed me to fill it in before submission. Furthermore, I conducted thorough testing on the select option drop-down list in the form. If the user failed to select an option from the drop-down list, the form promptly reminded them to complete the other required fields before submission.
 
