@@ -11,6 +11,12 @@
   border-bottom: 2px;
 }
 
+.nav-links .contact::before {
+  width: 100%;
+  height: 2px;
+  background-color: black;
+}
+
 /* Contact us - About Section */
 
 .contact-us {

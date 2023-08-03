@@ -1,4 +1,9 @@
 
+.nav-links .gallery::before {
+  width: 100%;
+  height: 2px;
+  background-color: black;
+}
 
 .gallery::before {
   content: "";
