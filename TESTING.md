@@ -191,7 +191,22 @@ Engaging with social media or Community: Loyal and enthusiastic frequent visitor
 
 To assess the performance, accessibility, best practices, and SEO of the website, I utilized Lighthouse, a powerful tool available within the Chrome Developer Tools. This enabled me to thoroughly test and evaluate different aspects of the website's performance, ensuring it meets the highest standards across all key areas.
 
-The following are the results:
+### Initial lighthouse testing
+
+![Poor result](https://github.com/zaicodes/beyond-photos-photography/blob/main/documentation/testing/poor-lighthouse-result.png)
+
+The initial Lighthouse testing scores indicated poor performance, but I managed to achieve better results by switching to incognito mode on Google Chrome. It was revealed that Chrome extensions had a significant impact on the website's performance score.
+
+### Mid lighthouse testing
+
+![Poor SEO](https://github.com/zaicodes/beyond-photos-photography/blob/main/documentation/testing/seo2.png)
+
+![Poor SEO](https://github.com/zaicodes/beyond-photos-photography/blob/main/documentation/testing/seo1.png)
+
+Even after switching to incognito mode, I noticed that the results were not satisfactory, particularly regarding SEO across all pages. My mentor offered a solution to address this issue by recommending the addition of a meta description to the HTML files. Implementing this change is expected to improve the website's search engine optimization and enhance its overall performance in search results which also improved the SEO result.
+
+
+### The following are the final lighthouse testing results:
 
 - Home page:
 
