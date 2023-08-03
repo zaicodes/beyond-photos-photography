@@ -1,4 +1,12 @@
 
+/* Credits: 
+The code used for FAQs is from: https://www.youtube.com/watch?v=6U-8kIx2oMk
+, modified to suit my project
+*/
+
+
+/* navbar */ 
+
 .faqs::before {
   content: "";
   position: absolute;
@@ -16,6 +24,8 @@
   height: 2px;
   background-color: black;
 }
+
+/* Faqs */
 
 .faqs-section {
   max-width: 800px;

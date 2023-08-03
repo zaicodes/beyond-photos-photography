@@ -1,4 +1,11 @@
 
+/* Credits: 
+The code used for the layout and hover effect is from: https://codepen.io/knyttneve/pen/YgZbLO
+, modified to suit my project
+*/
+
+/* navbar */ 
+
 .nav-links .gallery::before {
   width: 100%;
   height: 2px;

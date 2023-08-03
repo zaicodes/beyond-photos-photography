@@ -1,4 +1,14 @@
 
+/* Credits: 
+The code used for about-me section is from:
+https://www.digitalocean.com/community/tutorials/how-to-build-the-about-me-section-of-your-website-with-css-section-2
+
+The form code is from https://freefrontend.com/css-contact-forms/, 
+modified to my own project
+*/
+
+/* navbar */
+
 .contact::before {
   content: "";
   position: absolute;
