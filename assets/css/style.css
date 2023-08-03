@@ -99,9 +99,9 @@ nav.navbar a.nav-link {
   padding: 100px 20px;
   }
   
-  .section-1 h2 {
+  .section-1 .gallery-title {
   font-size: 5rem;
-  }
+  } 
   
   .section-1 img {
   height: 600px;
