@@ -35,6 +35,7 @@ The intended audience are those who are looking for professional photography ser
 ### Client Goals
 
 - First Time Visitors Goals:
+
 Easy Navigation: When I visit the website, I will find a clear navigation menu at the top, making it easy for me to access different sections of the site. I can also use the logo at the top and bottom of the pages to quickly navigate back to the home page.
 
 Visually appealing experience: As a first-time visitor, I'll notice a captivating hero section on the home page, showcasing an image of the photographer's work and giving me a glimpse of their artistic style. 
@@ -46,6 +47,7 @@ Gathering Information: I'll find a dedicated section on the home page featuring 
 Contacting or Booking a Session: If I'm interested in booking a session or have any enquiries, I'll find prominent call-to-action buttons on the home page that will direct me to the Contact Us page.
 
 - Returning Visitors Goals:
+
 Revisiting the Gallery: As a returning visitor, I can easily access the gallery from the home page. Whether I'm seeking inspiration, want to revisit the photographer's style, or explore new additions to the gallery, it's all there for me.
 
 Exploring FAQs: If I have any questions or need support, there is a dedicated FAQs page for my convenience. In case my specific question is not addressed in the FAQs section, I'm encouraged to reach out directly.
@@ -55,6 +57,7 @@ Booking a Session: As a returning visitor, I can easily book a session through t
 Contact Information: For my convenience, the Contact Us page provides various contact methods, including email, phone number, and address details, as well as the location on the map. I can get in touch anytime I need assistance.
 
 - Frequent Visitors Goals:
+
 Monitoring Special Events: As a frequent visitor, I can keep an eye on the gallery for any newly added photos and stay updated about special events.
 
 Engaging with Social Media or Community: As one of the loyal and enthusiastic frequent visitors, I'm encouraged to stay connected with the photographer through social media. 
