@@ -144,6 +144,10 @@ Checking for services and special offers: Visitors can check the service section
 
 ![services](https://github.com/zaicodes/beyond-photos-photography/blob/main/documentation/testing/services.png)
 
+Checking the gallery: First time visitors can easily access the gallery from the home page to gather inspiration or explore new additions to the gallery.
+
+![gallery](https://github.com/zaicodes/beyond-photos-photography/blob/main/documentation/testing/gallery-section.png)
+
 Gathering Information: The home page provides a section for the testimonials which will help a first-time visitor to gather information and help them decide if the service is fit for them.
 
 ![testimonials](https://github.com/zaicodes/beyond-photos-photography/blob/main/documentation/testing/testimonial.png)
@@ -155,10 +159,6 @@ Contacting or Booking a Session: The home page includes a prominent call-to-acti
 ![CTA-button](https://github.com/zaicodes/beyond-photos-photography/blob/main/documentation/testing/cta-button2.png)
 
 ### Returning Visitors Goals:
-
-Revisiting the gallery: Returning visitors can easily access the gallery from the home page to gather inspiration, remind themselves of the photographer's style, or explore new additions to the gallery.
-
-![gallery](https://github.com/zaicodes/beyond-photos-photography/blob/main/documentation/testing/gallery-section.png)
 
 Exploring FAQs: Returning visitors may have further questions or need support, and the FAQs page provides them with a valuable resource to find answers or seek assistance.
 
@@ -180,7 +180,7 @@ The Contact Us page also offers various contact methods for this purpose includi
 
 ### Frequent Visitors Goals:
 
-Monitoring for Special Events: Frequent visitors might frequently visit the gallery to look for any newly added photos.
+Monitoring the gallery: Frequent visitors might frequently visit the gallery to look for any newly added photos.
 ![gallery](https://github.com/zaicodes/beyond-photos-photography/blob/main/documentation/testing/gallery.png)
 
 Engaging with social media or Community: Loyal and enthusiastic frequent visitors might want to stay in touch and check for the latest posts through the social media, which is accessible in the footer of all pages.

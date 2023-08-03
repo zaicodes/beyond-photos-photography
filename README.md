@@ -10,17 +10,16 @@
 
 ### Initial discussion:
 
-Beyond Photos Photography, a photography business that captures the special moments. I'm looking to create a website that showcases gallery, contain information about service/prices, and provides a platform for potential clients to contact us and book a session.
-The website should also assist visitors in making informed decisions by offering a gallery, testimonials and price list, and an FAQ page.
+Beyond Photos Photography, a photography business that captures the special moments. The website showcases gallery, contain information about service/prices, and provides a platform for potential clients to contact the photographer and book a session.
+The website also assist visitors in making informed decisions by offering testimonials and price list as well as a FAQ page.
 
 ### Key information for the site:
 
 - Home page consists of hero-section with a headline and a button, followed by a glimpse of the gallery and finished with testimonials and services.
 - Photographer’s work (gallery page)
 - The FAQs that the user may have (FAQs page)
-- How to book a session, send a question and learn more about the photographer (About/Contact page)
+- How to book a session, contact the photographer and learn more about the photographer (About/Contact page)
 - An an additional feedback page that appears after submitting the contact form, allowing users to provide their input
-- Additionally, a dedicated 404 page is included to handle any errors or broken links..
 
 ### Target Audience
 
@@ -40,15 +39,15 @@ Easy Navigation: When I visit the website, I will find a clear navigation menu a
 
 Visually appealing experience: As a first-time visitor, I'll notice a captivating hero section on the home page, showcasing an image of the photographer's work and giving me a glimpse of their artistic style. 
 
-Checking for Services: When I explore the home page, I will easily check the services section to find types of sessions and special offers. 
+Checking the Gallery: As a first time visitor, I can easily access the gallery from the home page. Whether I'm seeking inspiration, want to revisit the photographer's style, or explore new additions to the gallery, it's all there for me.
+
+Checking for Services: When I explore the home page, I will easily check the services section to find the types of sessions that the photographer offers. 
 
 Gathering Information: I'll find a dedicated section on the home page featuring testimonials from satisfied clients. This will help me gather valuable information and make an informed decision about the photographer's services.
 
 Contacting or Booking a Session: If I'm interested in booking a session or have any enquiries, I'll find prominent call-to-action buttons on the home page that will direct me to the Contact Us page.
 
 - Returning Visitors Goals:
-
-Revisiting the Gallery: As a returning visitor, I can easily access the gallery from the home page. Whether I'm seeking inspiration, want to revisit the photographer's style, or explore new additions to the gallery, it's all there for me.
 
 Exploring FAQs: If I have any questions or need support, there is a dedicated FAQs page for my convenience. In case my specific question is not addressed in the FAQs section, I'm encouraged to reach out directly.
 
@@ -58,7 +57,7 @@ Contact Information: For my convenience, the Contact Us page provides various co
 
 - Frequent Visitors Goals:
 
-Monitoring Special Events: As a frequent visitor, I can keep an eye on the gallery for any newly added photos and stay updated about special events.
+Monitoring the gallery: As a frequent visitor, I can keep an eye on the gallery for any newly added photos and stay updated about new sessions.
 
 Engaging with Social Media or Community: As one of the loyal and enthusiastic frequent visitors, I'm encouraged to stay connected with the photographer through social media. 
 
@@ -72,9 +71,9 @@ Engaging with Social Media or Community: As one of the loyal and enthusiastic fr
 
 - The pure white (#ffffff) symbolizes cleanliness, and simplicity. It represents a sense of clarity and openness. On the other hand, the intense black (#000000) conveys strength, authority. It adds a touch of sophistication and elegance to the palette.
 
-- The shade of light grey (#F2F2F2) brings in a sense of neutrality, balance, and professionalism. It provides a subtle contrast between the white and black, creating a harmonious blend. This hue adds a touch of modernity and refinement to the overall palette.
+- The shade of light grey (#F2F2F2) brings in a sense of neutrality, balance, and professionalism. It provides a subtle contrast between the white and black, creating a harmonious blend. This hue adds a touch of modernity and refinement to the overall palette. I used this shade particularly to separate sections.
 
-- The vibrant red (#FF0000) stands out as a bold accent colour, representing passion, energy, and excitement. It adds a dynamic element to the palette, catching the viewer's attention and creating a focal point. This intense hue conveys a sense of urgency and evokes strong emotions.
+- The vibrant red (#FF0000) stands out as a bold accent colour, representing passion, energy, and excitement. It adds a dynamic element to the palette, catching the viewer's attention and creating a focal point.
 
 - Together, the colour palette combines the purity and simplicity of white, the strength and mystery of black, the neutrality and professionalism of light grey, and the passion and energy of red. It creates a visually striking and well-balanced palette that blends elements of clarity, sophistication, modernity, and dynamism.
 
@@ -94,7 +93,7 @@ Engaging with Social Media or Community: As one of the loyal and enthusiastic fr
 
 ### Imagery:
 
-- The image on hero section in the home page was chosen to be attractive, welcoming and in-keeping with the theme of the site.
+- The image on hero section in the home page was chosen to be attractive, sophisticated and in-keeping with the theme of the site.
 - The images on the other pages were chosen to be relevant to the content of the page and to showcase the work of the photographer, it follows the style and complements the colour palette of the site.
 
 ## Wireframes
@@ -113,9 +112,13 @@ During the planning phase, I used Balsamiq to create wireframes for each page an
 - Contact
   ![Contact](https://github.com/zaicodes/beyond-photos-photography/blob/main/documentation/Contact.png)
 
+
 ## Features
 
+The website consists of six pages, four of which are readily accessible from the navigation menu: the home page, gallery page, FAQs page, and contact us page. The fifth page becomes accessible once the user clicks the "More Review" button in the testimonial section on the home page. Moreover, there is a confirmation page that appears after a user submits the form on the contact us page.
+
 ### Navigation
+
 ![navbar](https://github.com/zaicodes/beyond-photos-photography/blob/main/documentation/testing/navbar.png)
 
 The navigation bar consists of the Beyond Photos Photography logo that links to the home page, as well as links to Gallery, FAQs and About/contact us pages. It exhibits responsiveness, adapting to different screen sizes seamlessly. 
@@ -124,8 +127,9 @@ The navigation bar consists of the Beyond Photos Photography logo that links to 
 
 On larger screens, the links are presented as clickable page titles. However, on medium and small screens, a hamburger menu is employed to ensure optimal usability.
 
+![active page](https://github.com/zaicodes/beyond-photos-photography/blob/main/documentation/testing/nav-line.png)
 
-- Beneath the navigation bar, there is a stylish title bar which indicates the current page the user is on. This feature enhances navigation and provides clarity throughout the browsing.
+- Beneath the navigation bar, there is a black title line which indicates the current page the user is on. This feature enhances navigation and provides clarity throughout the browsing.
 
 ### The Landing Page Image
 ![hero-section](https://github.com/zaicodes/beyond-photos-photography/blob/main/documentation/testing/hero-section.png)
@@ -183,6 +187,17 @@ Additionally, the page serves as a platform for users to book their desired phot
 ![location](https://github.com/zaicodes/beyond-photos-photography/blob/main/documentation/testing/location-details.png)
 For the user's ease, the "Contact Us" page provides multiple contact methods, including email, phone, and address details. Furthermore, it includes a map displaying the photographer's location for easy navigation and interaction.
 
+## Review page
+
+![reviews](https://github.com/zaicodes/beyond-photos-photography/blob/main/documentation/testing/reviews.png)
+
+To access the review page, the user must click on the "More Reviews" button found in the testimonial section on the home page, where they can find a collection of additional reviews. This feature allows users to make more informed and positive decisions after reading a broader range of reviews.
+
+## Confirmation page
+
+![confirmation](https://github.com/zaicodes/beyond-photos-photography/blob/main/documentation/testing/confirmation.png)
+
+After successfully submitting a form, a confirmation page briefly appears, displaying a "Thank You" message. This page also informs the user that they will be redirected back to the home page shortly. The purpose of this confirmation page is to acknowledge the submission and assure the user that their action was successful before taking them back to the main home page.
 
 ### Features Left to Implement
 
