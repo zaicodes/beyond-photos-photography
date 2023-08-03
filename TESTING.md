@@ -191,11 +191,14 @@ To assess the performance, accessibility, best practices, and SEO of the website
 
 The following are the results:
 
+- Home page:
+
 ![index desktop](https://github.com/zaicodes/beyond-photos-photography/blob/main/documentation/testing/index-desktop.png)
 
 
 ![index mobile](https://github.com/zaicodes/beyond-photos-photography/blob/main/documentation/testing/index-mobile.png)
 
+- Issues:
 
 ![index issue](https://github.com/zaicodes/beyond-photos-photography/blob/main/documentation/testing/index-issue.png)
 
@@ -203,21 +206,30 @@ This particular issue was identified not only in the desktop Lighthouse report b
 
 Although resolving this issue was an option, I made a conscious decision not to amend it for the sake of my website's UI. The consistent photo sizes add a fixed and visually appealing element to the page, enhancing the overall user experience. 
 
+
+- Faqs page:
+
 ![faqs desktop](https://github.com/zaicodes/beyond-photos-photography/blob/main/documentation/testing/faqs-desktop.png)
 
 
 ![faqs mobile](https://github.com/zaicodes/beyond-photos-photography/blob/main/documentation/testing/faqs-mobile.png)
 
 
+- Gallery page:
+
 ![gallery desktop](https://github.com/zaicodes/beyond-photos-photography/blob/main/documentation/testing/gallery-desktop.png)
 
 ![gallery mobile](https://github.com/zaicodes/beyond-photos-photography/blob/main/documentation/testing/gallery-mobile.png)
 
 
+- Contact us page:
+
 ![contact desktop](https://github.com/zaicodes/beyond-photos-photography/blob/main/documentation/testing/contact-desktop.png)
 
 
 ![contact mobile](https://github.com/zaicodes/beyond-photos-photography/blob/main/documentation/testing/contact-mobile.png)
+
+- Issues: 
 
 The specific issue that surfaced in the desktop Lighthouse report is related to the integration of the Google Map used on the page. Given the significance of this map for my project, I encountered difficulties in resolving the problem. Despite my efforts, the issue persisted. Due to the map's essential role in the project, I have made the decision to leave it as is for the time being, ensuring that users can continue to access and utilize the map's functionalities on the desktop version of the website.
 
@@ -230,13 +242,24 @@ During the testing with Lighthouse on mobile devices, I encountered a related is
 
 ## Cross-browser Testing
 
+I conducted thorough testing of the website across various internet browsers, including Firefox, Microsoft Edge, and Google Chrome. I am pleased to report that all the results were successful. The website performed flawlessly as expected, without encountering any issues.
+
+
 - Google Chrome
+
+![Google Chrome](https://github.com/zaicodes/beyond-photos-photography/blob/main/documentation/testing/chrome.png)
+
 
 - Firefox
 
+![Firefox](https://github.com/zaicodes/beyond-photos-photography/blob/main/documentation/testing/firefox.png)
+
+
 - Microsoft Edge
 
-- Safari
+![Edge](https://github.com/zaicodes/beyond-photos-photography/blob/main/documentation/testing/edge.png)
+
+
 
 ## Compatibility and Responsiveness Testing
 I thoroughly conducted testing of the site on various devices, including my desktop monitor, HP ENVY x360 15.6" laptop, Samsung Galaxy S23 Android smartphone, Apple iPhone 13 Pro Max, and Samsung Galaxy S7+ tablet.
@@ -245,11 +268,39 @@ The results were outstanding, as the site loaded seamlessly and operated flawles
 
 - HP Envy Laptop
 
+![HP laptop 1](https://github.com/zaicodes/beyond-photos-photography/blob/main/documentation/testing/hp.1.png)
+
+![HP laptop 2](https://github.com/zaicodes/beyond-photos-photography/blob/main/documentation/testing/hp.2.png)
+
+![HP laptop 3](https://github.com/zaicodes/beyond-photos-photography/blob/main/documentation/testing/hp.3.png)
+
+
 - Samsung Galaxy S23 Android
+
+![Samsung Phone 1](https://github.com/zaicodes/beyond-photos-photography/blob/main/documentation/testing/samsung.phone.jpg)
+
+![Samsung Phone 2](https://github.com/zaicodes/beyond-photos-photography/blob/main/documentation/testing/samsung.phone2.jpg)
+
+![Samsung Phone 3](https://github.com/zaicodes/beyond-photos-photography/blob/main/documentation/testing/samsung.phone3.jpg)
+
 
 - iPhone 13 Pro Max
 
-- Samsung Galaxy S7+ tablet
+![Samsung Phone 3](https://github.com/zaicodes/beyond-photos-photography/blob/main/documentation/testing/iphone.1.jpg)
+
+![Samsung Phone 3](https://github.com/zaicodes/beyond-photos-photography/blob/main/documentation/testing/iphone.2.jpg)
+
+![Samsung Phone 3](https://github.com/zaicodes/beyond-photos-photography/blob/main/documentation/testing/iphone.3.jpg)
+
+
+
+- Samsung Galaxy S7+ tab
+
+![Samsung tab 3](https://github.com/zaicodes/beyond-photos-photography/blob/main/documentation/testing/samsung.tab.jpg)
+
+![Samsung tab 3](https://github.com/zaicodes/beyond-photos-photography/blob/main/documentation/testing/samsung.tab2.jpg)
+
+![Samsung tab 3](https://github.com/zaicodes/beyond-photos-photography/blob/main/documentation/testing/samsung.tab3.jpg)
 
 
 ## Further Testing

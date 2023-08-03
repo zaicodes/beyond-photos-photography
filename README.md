@@ -163,9 +163,15 @@ The footer will be present across every page of the site, featuring the logo and
 
 ### FAQs Page
 
+
 ### About/Contact Us Page
 
+
 ### Features Left to Implement
+
+Given more time, I would have implemented additional features to enhance the website's functionality. One of these features would be a dedicated blog page, allowing the photographer to share her latest blog posts with clients and visitors.
+
+Additionally, I'd have integrated a search bar at the top of the website's navigation bar. This search feature would enable users to easily search for specific keywords and find relevant content on the website. These improvements would have made the website more user-friendly and informative.
 
 ## Technologies Used
 
@@ -210,13 +216,12 @@ The website was deployed via GitHub Pages. Follow these steps to deploy:
 ### Code:
 
 - The code is inspired from the Love Running project as well as The Bootstrap project.
-- The Navbar Toggle was taken from the Bootstrap website.
-- The rest of Bootstrap code including responsiveness was taken from the Bootstrap website.
+- The Navbar Toggle as well as the rest of the Bootstrap codes were taken from the Bootstrap website.
 - The hover effect on images on Gallery page is from [this link](https://codepen.io/knyttneve/pen/YgZbLO)
 - The FAQ code is from [YouTube](https://www.youtube.com/watch?v=6U-8kIx2oMk)
-- The meta element on confirmation.html that redirect user to home page was taking from [this tutorial](https://www.tutorialspoint.com/How-to-automatically-redirect-a-Web-Page-to-another-URL).
-- In contact.html, code that helped me position photo on the side with text on the the other side on the same section was inspired from [here](https://www.digitalocean.com/community/tutorials/how-to-build-the-about-me-section-of-your-website-with-css-section-2).
-- Contact us form was inspired from [here](https://freefrontend.com/css-contact-forms/) and [here](https://www.peoplemetrics.com/contact). 
+- The meta element on confirmation.html that redirect user to home page was from [this tutorial](https://www.tutorialspoint.com/How-to-automatically-redirect-a-Web-Page-to-another-URL).
+- In contact.html, the code that helped me position photo on the side with text on the the other side on the same section was inspired from [here](https://www.digitalocean.com/community/tutorials/how-to-build-the-about-me-section-of-your-website-with-css-section-2).
+- Contact us form was taken from [here](https://freefrontend.com/css-contact-forms/) and [here](https://www.peoplemetrics.com/contact). 
 
 
 ### Media:
