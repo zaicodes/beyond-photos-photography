@@ -242,6 +242,26 @@ During the testing with Lighthouse on mobile devices, I encountered a related is
 ![contact issue 2](https://github.com/zaicodes/beyond-photos-photography/blob/main/documentation/testing/contact-issue2.png)
 
 
+## Testing colour contrasts
+
+I utilized the Colour Contrast Checker to test the colour theme of my website, ensuring that it provides appropriate contrasts.
+
+Upon testing, I noticed that the contrast for the navbar was poor, as I had implemented red text on a white background, making it difficult to read.
+
+![Red-on-White contrast](https://github.com/zaicodes/beyond-photos-photography/blob/main/documentation/testing/contrast4.png)
+
+Had I opted for a slightly darker red, as shown below, it would have resulted in a better contrast. This simple adjustment would have significantly improved the visibility of the navbar, making it easier for users to navigate and comprehend the content.
+
+![Darker red](https://github.com/zaicodes/beyond-photos-photography/blob/main/documentation/testing/contrast2.png)
+
+
+However, I'm pleased to report that the color contrast between texts and backgrounds in other areas of the website was acceptable and did not present readability issues.
+
+![good contrast](https://github.com/zaicodes/beyond-photos-photography/blob/main/documentation/testing/contrast1.png)
+
+![good contrast2](https://github.com/zaicodes/beyond-photos-photography/blob/main/documentation/testing/contrast3.png)
+
+
 ## Cross-browser Testing
 
 I conducted thorough testing of the website across various internet browsers, including Firefox, Microsoft Edge, and Google Chrome. I am pleased to report that all the results were successful. The website performed flawlessly as expected, without encountering any issues.
