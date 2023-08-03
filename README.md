@@ -163,8 +163,25 @@ The footer will be present across every page of the site, featuring the logo and
 
 ### FAQs Page
 
+![FAQs](https://github.com/zaicodes/beyond-photos-photography/blob/main/documentation/testing/faqs.png)
+
+The FAQs page serves as a valuable resource for users seeking answers to their inquiries before finalising a session booking. Moreover, it features a convenient call-to-action button, urging visitors to get in touch with the photographer directly in case their specific question is not addressed in the existing list of FAQs.
+
 
 ### About/Contact Us Page
+
+![about-me](https://github.com/zaicodes/beyond-photos-photography/blob/main/documentation/testing/about-me.png)
+
+The "Contact Us" page showcases an "About Me" section, presenting a concise introduction of the photographer, accompanied by a photo of her.
+
+![form](https://github.com/zaicodes/beyond-photos-photography/blob/main/documentation/testing/form1.png)
+
+![form](https://github.com/zaicodes/beyond-photos-photography/blob/main/documentation/testing/form2.png)
+
+Additionally, the page serves as a platform for users to book their desired photography session through a booking form. This form offers various session options, allowing users to select the one that best suits their needs.
+
+![location](https://github.com/zaicodes/beyond-photos-photography/blob/main/documentation/testing/location-details.png)
+For the user's ease, the "Contact Us" page provides multiple contact methods, including email, phone, and address details. Furthermore, it includes a map displaying the photographer's location for easy navigation and interaction.
 
 
 ### Features Left to Implement

@@ -91,6 +91,8 @@ Throughout the entire development process, I conducted continuous testing, makin
 
 - Making the social links open in a new tab by adding the target=”_blank” and rel=”noopener” attributes.
 
+- Removed extra media query code which was interacting negatively with the photo sizes on different screens on Gallary page.
+
 
 
 ## Validator Testing
