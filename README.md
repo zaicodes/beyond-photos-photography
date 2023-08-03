@@ -34,32 +34,30 @@ The intended audience are those who are looking for professional photography ser
 
 ### Client Goals
 
-First time visitors goals are:
+- First Time Visitors Goals:
+Easy Navigation: When I visit the website, I will find a clear navigation menu at the top, making it easy for me to access different sections of the site. I can also use the logo at the top and bottom of the pages to quickly navigate back to the home page.
 
-- Gathering Information: Visitors want to learn about the photographer's services, such as session types, pricing, locations, and overall experience, to see if they align with their needs.
-- Evaluating Quality and Style: They aim to assess the photographer's work by exploring the gallery and examples of previous sessions to see if the artistic style matches their preferences.
-- To easily navigate around the content of the site.
-- Building Trust and Credibility: First-time visitors seek indications of the photographer's professionalism, experience, and reputation through testimonials and client reviews.
-- Contacting or Booking a Session: Many visitors want to take the next step by finding clear contact information or an easy-to-use booking system to inquire about location, availability and secure a date for their desired session.
+Visually appealing experience: As a first-time visitor, I'll notice a captivating hero section on the home page, showcasing an image of the photographer's work and giving me a glimpse of their artistic style. 
 
-Returning visitors goals are:
+Checking for Services: When I explore the home page, I will easily check the services section to find types of sessions and special offers. 
 
-- Revisiting the gallery: They want to gather inspiration, remind themselves of the photographer's style, or explore new additions to the gallery.
-- Checking for Updates or Promotions: They are interested in any new session options, special offers, or upcoming events introduced since their last visit.
-- Accessing Client Galleries or Ordering Prints: If available, returning visitors may want to view or purchase additional prints from their own galleries or order prints from previous sessions.
-- Exploring Additional Services: Returning visitors who have previously booked a session may want to explore specialized sessions or package deals for multiple sessions.
+Gathering Information: I'll find a dedicated section on the home page featuring testimonials from satisfied clients. This will help me gather valuable information and make an informed decision about the photographer's services.
 
-- Seeking Contact Information or Support: They may have questions, need support, or want to enquire about rescheduling a session, seeking advice on photo products, or addressing any other concerns.
+Contacting or Booking a Session: If I'm interested in booking a session or have any enquiries, I'll find prominent call-to-action buttons on the home page that will direct me to the Contact Us page.
 
-Frequent visitors goals are:
+- Returning Visitors Goals:
+Revisiting the Gallery: As a returning visitor, I can easily access the gallery from the home page. Whether I'm seeking inspiration, want to revisit the photographer's style, or explore new additions to the gallery, it's all there for me.
 
-- Monitoring for Special Events or Limited Offers: Frequent visitors want to stay informed about exclusive sessions, special events, or limited-time offers that the photographer announces, anticipating unique opportunities.
+Exploring FAQs: If I have any questions or need support, there is a dedicated FAQs page for my convenience. In case my specific question is not addressed in the FAQs section, I'm encouraged to reach out directly.
 
-- Researching for Future Sessions or Projects: They use the website as a research tool, exploring session options, gathering ideas for themes or locations, and seeking inspiration for their own photography projects.
+Booking a Session: As a returning visitor, I can easily book a session through the booking form on the Contact Us page. This gives me the flexibility to choose the type of session that suits my preferences.
 
-- Engaging with social media or Community: Active participants in the photographer's social media channels or online community, they check for updates, engage with posts, share their experiences, and connect with others who appreciate the photographer's work.
+Contact Information: For my convenience, the Contact Us page provides various contact methods, including email, phone number, and address details, as well as the location on the map. I can get in touch anytime I need assistance.
 
-- Referring Others to the Photographer: Loyal and enthusiastic, they aim to refer friends, family, or colleagues to the photographer by sharing the website, portfolio, or testimonials with others seeking professional portrait photography.
+- Frequent Visitors Goals:
+Monitoring Special Events: As a frequent visitor, I can keep an eye on the gallery for any newly added photos and stay updated about special events.
+
+Engaging with Social Media or Community: As one of the loyal and enthusiastic frequent visitors, I'm encouraged to stay connected with the photographer through social media. 
 
 ## Design
 
@@ -88,7 +86,7 @@ Frequent visitors goals are:
 ### Typography:
 
 - Montserrat (sans-serif) was chosen for titles and navbar links.
-- Inter (sans-serif) was chosen for all other text throughout the site.
+- San Serif was chosen for paragraph text throughout the site.
 - I imported these fonts using Google Fonts.
 
 ### Imagery:
@@ -115,25 +113,46 @@ During the planning phase, I used Balsamiq to create wireframes for each page an
 ## Features
 
 ### Navigation
+![navbar](https://github.com/zaicodes/beyond-photos-photography/blob/main/documentation/testing/navbar.png)
 
-- Featured at the top of all four pages for intuitive navigation.
-- Consists of the Beyond Photos Photography logo that links to the home page, as well as links to Gallery, FAQs and About/contact us pages.
-- The navigation bar exhibits full responsiveness, adapting to different screen sizes seamlessly. On larger screens, the links are presented as clickable page titles. However, on medium and small screens, a hamburger menu is employed to ensure optimal usability.
-- The navigation bar simplifies the user experience by providing easy access to different sections of the site, eliminating the need to rely on the web browser's back button.
+The navigation bar consists of the Beyond Photos Photography logo that links to the home page, as well as links to Gallery, FAQs and About/contact us pages. It exhibits responsiveness, adapting to different screen sizes seamlessly. 
+
+![responsiveness](https://github.com/zaicodes/beyond-photos-photography/blob/main/documentation/testing/responsive.png)
+
+On larger screens, the links are presented as clickable page titles. However, on medium and small screens, a hamburger menu is employed to ensure optimal usability.
+
+
 - Beneath the navigation bar, there is a stylish title bar which indicates the current page the user is on. This feature enhances navigation and provides clarity throughout the browsing.
 
 ### The Landing Page Image
+![hero-section](https://github.com/zaicodes/beyond-photos-photography/blob/main/documentation/testing/hero-section.png)
 
 - The landing page includes a photograph with text overlay to let the user understand the purpose of the website.
 - Underneath of the headline, there is a Call-to-Action (CTA) button which can lead to contact us page.
 
 ### Gallery
+![gallery](https://github.com/zaicodes/beyond-photos-photography/blob/main/documentation/testing/gallery-section.png)
+
+The gallery can be accessed from the home page via the gallery section, allowing visitors to learn more about the photographer's work and style. 
+
+![gallery](https://github.com/zaicodes/beyond-photos-photography/blob/main/documentation/testing/gallery.png)
+
+The gallery page boasts an array of photos showcasing the photographer's unique and captivating work. Each photo is adorned with a hover effect, adding a touch of uniqueness and creating an interesting and pleasing visual experience for the user.
 
 ### Testimonials
+![testimonials](https://github.com/zaicodes/beyond-photos-photography/blob/main/documentation/testing/testimonial.png)
 
-### Service with prices section
+The Testimonials section showcases customer reviews, providing valuable insights for new users who are exploring the website for the first time. This responsive section optimizes the display based on the screen size: all three testimonials appear on the same line on large screens, two across above one on two lines on medium screens, and individually on three lines for smaller screens. This ensures that users have a seamless and user-friendly experience, regardless of the device they are using to access the site.
+
+### Services
+![services](https://github.com/zaicodes/beyond-photos-photography/blob/main/documentation/testing/services.png)
+
+The service section, titled "Our Packages," is prominently displayed on the home page. Here, you will find a list of three enticing offers along with their respective prices. Beneath the packages, a clear and compelling call-to-action button awaits, guiding users to easily book a session when they feel ready. Whether you are a first-time visitor or a returning customer, this seamless process ensures that you can quickly select and book the perfect package to suit your preferences and needs.
 
 ### Footer
+![footer](https://github.com/zaicodes/beyond-photos-photography/blob/main/documentation/testing/footer.png)
+
+The footer will be present across every page of the site, featuring the logo and social media icons that link directly to the corresponding social media websites. This will enable users to effortlessly stay up to date with the photographer's latest updates and events on various platforms.
 
 ### FAQs Page
 
@@ -186,7 +205,7 @@ The website was deployed via GitHub Pages. Follow these steps to deploy:
 - The code is inspired from the Love Running project as well as The Bootstrap project.
 - The Navbar Toggle was taken from the Bootstrap website.
 - The rest of Bootstrap code including responsiveness was taken from the Bootstrap website.
-- The hover effect on Gallery images is from [this link](https://codepen.io/knyttneve/pen/YgZbLO)
+- The hover effect on images on Gallery page is from [this link](https://codepen.io/knyttneve/pen/YgZbLO)
 - The FAQ code is from [YouTube](https://www.youtube.com/watch?v=6U-8kIx2oMk)
 - The meta element on confirmation.html that redirect user to home page was taking from [this tutorial](https://www.tutorialspoint.com/How-to-automatically-redirect-a-Web-Page-to-another-URL).
 - In contact.html, code that helped me position photo on the side with text on the the other side on the same section was inspired from [here](https://www.digitalocean.com/community/tutorials/how-to-build-the-about-me-section-of-your-website-with-css-section-2).

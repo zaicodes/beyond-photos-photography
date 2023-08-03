@@ -65,7 +65,7 @@ Throughout the entire development process, I conducted continuous testing, makin
 
 ### Other bugs that were resolved include:
 
-- Moving all JavaScript to the bottom of the body on every page.
+- Moving all script elements to the bottom of the body on every page.
 
 - Removing the :hover effect from all images on both Home and Gallery pages for small screens.
 
@@ -130,7 +130,7 @@ The navigation bar effortlessly adjusts to various screen sizes, showcasing impe
 
 ![responsiveness](https://github.com/zaicodes/beyond-photos-photography/blob/main/documentation/testing/responsive.png)
 
-Evaluating Quality and Style: The home page includes a hero section with an image showcasing the photographer's work, giving visitors a glimpse of their artistic style.
+Visually appealing experience: The home page includes a hero section with an image showcasing the photographer's work, giving visitors a glimpse of their artistic style.
 There is also a set style with a colour theme, specific fonts and a consistent navbar and footer throughout all pages.
 
 ![hero-section](https://github.com/zaicodes/beyond-photos-photography/blob/main/documentation/testing/hero-section.png)
@@ -175,7 +175,7 @@ The Contact Us page also offers various contact methods for this purpose includi
 
 ### Frequent Visitors Goals:
 
-Monitoring for Special Events or Limited Offers: Frequent visitors might frequently visit the gallery to look for any newly added photos.
+Monitoring for Special Events: Frequent visitors might frequently visit the gallery to look for any newly added photos.
 ![gallery](https://github.com/zaicodes/beyond-photos-photography/blob/main/documentation/testing/gallery.png)
 
 Engaging with social media or Community: Loyal and enthusiastic frequent visitors might want to stay in touch and check for the latest posts through the social media, which is accessible in the footer of all pages.
@@ -184,6 +184,28 @@ Engaging with social media or Community: Loyal and enthusiastic frequent visitor
 
 ## Lighthouse
 
+## Cross-browser Testing
+
+- Google Chrome
+
+- Firefox
+
+- Microsoft Edge
+
+- Safari
+
+## Compatibility and Responsiveness Testing
+I thoroughly conducted testing of the site on various devices, including my desktop monitor, HP ENVY x360 15.6" laptop, Samsung Galaxy S23 Android smartphone, Apple iPhone 13 Pro Max, and Samsung Galaxy S7+ tablet.
+
+The results were outstanding, as the site loaded seamlessly and operated flawlessly on all these devices. Furthermore, the content adapted perfectly to each screen size as intended.
+
+- HP Envy Laptop
+
+- Samsung Galaxy S23 Android
+
+- iPhone 13 Pro Max
+
+- Samsung Galaxy S7+ tablet
 
 
 ## Further Testing
