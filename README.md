@@ -190,13 +190,13 @@ Additionally, the page serves as a platform for users to book their desired phot
 ![location](https://github.com/zaicodes/beyond-photos-photography/blob/main/documentation/testing/location-details.png)
 For the user's ease, the "Contact Us" page provides multiple contact methods, including email, phone, and address details. Furthermore, it includes a map displaying the photographer's location for easy navigation and interaction.
 
-## Review page
+### Review page
 
 ![reviews](https://github.com/zaicodes/beyond-photos-photography/blob/main/documentation/testing/reviews.png)
 
 To access the review page, the user must click on the "More Reviews" button found in the testimonial section on the home page, where they can find a collection of additional reviews. This feature allows users to make more informed and positive decisions after reading a broader range of reviews.
 
-## Confirmation page
+### Confirmation page
 
 ![confirmation](https://github.com/zaicodes/beyond-photos-photography/blob/main/documentation/testing/confirmation.png)
 
@@ -208,7 +208,7 @@ Given more time, I would have implemented additional features to enhance the web
 
 Additionally, I'd have integrated a search bar at the top of the website's navigation bar. This search feature would enable users to easily search for specific keywords and find relevant content on the website. These improvements would have made the website more user-friendly and informative.
 
-### Accessibility
+## Accessibility
 
 Throughout the coding process, I have prioritized making the website as accessible-friendly as possible. To achieve this goal, I have implemented the following strategies:
 
