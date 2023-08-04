@@ -7,79 +7,80 @@
 [You can view the website here](https://zaicodes.github.io/beyond-photos-photography/index.html)
 
 ## Contents
-[Project Overview](https://github.com/zaicodes/beyond-photos-photography#project-goals)
 
-[Initial discussion](https://github.com/zaicodes/beyond-photos-photography#initial-discussion)
+- [Project Overview](https://github.com/zaicodes/beyond-photos-photography#project-goals)
 
-[Key information for the site](https://github.com/zaicodes/beyond-photos-photography#key-information-for-the-site)
+  - [Initial discussion](https://github.com/zaicodes/beyond-photos-photography#initial-discussion)
 
-[Target Audience](https://github.com/zaicodes/beyond-photos-photography#target-audience)
+  - [Key information for the site](https://github.com/zaicodes/beyond-photos-photography#key-information-for-the-site)
 
-[User Experience (UX)](https://github.com/zaicodes/beyond-photos-photography#user-experience-ux)
+  - [Target Audience](https://github.com/zaicodes/beyond-photos-photography#target-audience)
 
-[Cleint Goals](https://github.com/zaicodes/beyond-photos-photography#client-goals)
+- [User Experience (UX)](https://github.com/zaicodes/beyond-photos-photography#user-experience-ux)
 
-[Design](https://github.com/zaicodes/beyond-photos-photography#design)
+  - [Cleint Goals](https://github.com/zaicodes/beyond-photos-photography#client-goals)
 
-[Colour Scheme](https://github.com/zaicodes/beyond-photos-photography#colour-scheme)
+- [Design](https://github.com/zaicodes/beyond-photos-photography#design)
 
-[Logo](https://github.com/zaicodes/beyond-photos-photography#logo)
+  - [Colour Scheme](https://github.com/zaicodes/beyond-photos-photography#colour-scheme)
 
-[Typography](https://github.com/zaicodes/beyond-photos-photography#typography)
+  - [Logo](https://github.com/zaicodes/beyond-photos-photography#logo)
 
-[Imagery](https://github.com/zaicodes/beyond-photos-photography#imagery)
+  - [Typography](https://github.com/zaicodes/beyond-photos-photography#typography)
 
-[Wireframes](https://github.com/zaicodes/beyond-photos-photography#wireframes)
+  - [Imagery](https://github.com/zaicodes/beyond-photos-photography#imagery)
 
-[Features](https://github.com/zaicodes/beyond-photos-photography#features)
+- [Wireframes](https://github.com/zaicodes/beyond-photos-photography#wireframes)
 
-[Navigation](https://github.com/zaicodes/beyond-photos-photography#navigation)
+- [Features](https://github.com/zaicodes/beyond-photos-photography#features)
 
-[The Landing Page Image](https://github.com/zaicodes/beyond-photos-photography#the-landing-page-image)
+  - [Navigation](https://github.com/zaicodes/beyond-photos-photography#navigation)
 
-[Gallery](https://github.com/zaicodes/beyond-photos-photography#gallery)
+  - [The Landing Page Image](https://github.com/zaicodes/beyond-photos-photography#the-landing-page-image)
 
-[Testimonials](https://github.com/zaicodes/beyond-photos-photography#testimonials)
+  - [Gallery](https://github.com/zaicodes/beyond-photos-photography#gallery)
 
-[Services](https://github.com/zaicodes/beyond-photos-photography#services)
+  - [Testimonials](https://github.com/zaicodes/beyond-photos-photography#testimonials)
 
-[Footer](https://github.com/zaicodes/beyond-photos-photography#footer)
+  - [Services](https://github.com/zaicodes/beyond-photos-photography#services)
 
-[FAQs Page](https://github.com/zaicodes/beyond-photos-photography#faqs-page)
+  - [Footer](https://github.com/zaicodes/beyond-photos-photography#footer)
 
-[About/Contact Us Page](https://github.com/zaicodes/beyond-photos-photography#aboutcontact-us-page)
+  - [FAQs Page](https://github.com/zaicodes/beyond-photos-photography#faqs-page)
 
-[Review Page](https://github.com/zaicodes/beyond-photos-photography#review-page)
+  - [About/Contact Us Page](https://github.com/zaicodes/beyond-photos-photography#aboutcontact-us-page)
 
-[Confirmation Page](https://github.com/zaicodes/beyond-photos-photography#confirmation-page)
+  - [Review Page](https://github.com/zaicodes/beyond-photos-photography#review-page)
 
-[Features Left to Implement](https://github.com/zaicodes/beyond-photos-photography#features-left-to-implement)
+  - [Confirmation Page](https://github.com/zaicodes/beyond-photos-photography#confirmation-page)
 
-[Accessibility](https://github.com/zaicodes/beyond-photos-photography#accessibility)
+  - [Features Left to Implement](https://github.com/zaicodes/beyond-photos-photography#features-left-to-implement)
 
-[Technologies Used](https://github.com/zaicodes/beyond-photos-photography#technologies-used)
+- [Accessibility](https://github.com/zaicodes/beyond-photos-photography#accessibility)
 
-[Languages Used](https://github.com/zaicodes/beyond-photos-photography#languages-used)
+- [Technologies Used](https://github.com/zaicodes/beyond-photos-photography#technologies-used)
 
-[Frameworks, Libraries and Programs Used](https://github.com/zaicodes/beyond-photos-photography#frameworks-libraries-and-programs-used)
+  - [Languages Used](https://github.com/zaicodes/beyond-photos-photography#languages-used)
 
-[Testing](https://github.com/zaicodes/beyond-photos-photography#testing)
+  - [Frameworks, Libraries and Programs Used](https://github.com/zaicodes/beyond-photos-photography#frameworks-libraries-and-programs-used)
 
-[Deployment & Local Development](https://github.com/zaicodes/beyond-photos-photography#deployment--local-development)
+- [Testing](https://github.com/zaicodes/beyond-photos-photography#testing)
 
-[Deployment](https://github.com/zaicodes/beyond-photos-photography#deployment)
+- [Deployment & Local Development](https://github.com/zaicodes/beyond-photos-photography#deployment--local-development)
 
-[Local Development](https://github.com/zaicodes/beyond-photos-photography#local-development)
+  - [Deployment](https://github.com/zaicodes/beyond-photos-photography#deployment)
 
-[Credits](https://github.com/zaicodes/beyond-photos-photography#credits)
+  - [Local Development](https://github.com/zaicodes/beyond-photos-photography#local-development)
 
-[Code](https://github.com/zaicodes/beyond-photos-photography#code)
+- [Credits](https://github.com/zaicodes/beyond-photos-photography#credits)
 
-[Media](https://github.com/zaicodes/beyond-photos-photography#media)
+  - [Code](https://github.com/zaicodes/beyond-photos-photography#code)
 
-[Website Content](https://github.com/zaicodes/beyond-photos-photography#website-content)
+  - [Media](https://github.com/zaicodes/beyond-photos-photography#media)
 
-[Acknowledgements](https://github.com/zaicodes/beyond-photos-photography#acknowledgements)
+  - [Website Content](https://github.com/zaicodes/beyond-photos-photography#website-content)
+
+  - [Acknowledgements](https://github.com/zaicodes/beyond-photos-photography#acknowledgements)
 
 
 
