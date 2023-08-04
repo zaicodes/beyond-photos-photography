@@ -117,6 +117,9 @@ During the planning phase, I used Balsamiq to create wireframes for each page an
 
 The website consists of six pages, four of which are readily accessible from the navigation menu: the home page, gallery page, FAQs page, and contact us page. The fifth page becomes accessible once the user clicks the "More Review" button in the testimonial section on the home page. Moreover, there is a confirmation page that appears after a user submits the form on the contact us page.
 
+The website utilizes Bootstrap grid sizes and CSS3 media queries to ensure a responsive layout that automatically adjusts and reflows when the screen is resized.
+
+
 ### Navigation
 
 ![navbar](https://github.com/zaicodes/beyond-photos-photography/blob/main/documentation/testing/navbar.png)
@@ -205,12 +208,27 @@ Given more time, I would have implemented additional features to enhance the web
 
 Additionally, I'd have integrated a search bar at the top of the website's navigation bar. This search feature would enable users to easily search for specific keywords and find relevant content on the website. These improvements would have made the website more user-friendly and informative.
 
+### Accessibility
+
+Throughout the coding process, I have prioritized making the website as accessible-friendly as possible. To achieve this goal, I have implemented the following strategies:
+
+- Utilizing semantic HTML elements such as header, section, nav, and footer to provide a clear and meaningful structure to the website, enhancing its accessibility.
+
+- Including descriptive Alt attributes for images and links, which enables screen readers to convey the purpose and context of the content to visually impaired users.
+
+- Incorporating a hover effect on all buttons to ensure that users can easily identify when they are interacting with a button, enhancing the user experience.
+
+- Ensuring a sufficient colour contrast across the site to improve readability for users with visual impairments (check TESTING.md for colour contrast testing)
+
+- Making the navigation menu accessible by marking the current page as current for screen readers, allowing users to easily understand their current location within the website.
+
 ## Technologies Used
 
 ### Languages Used
 
 - HTML5
 - CSS3
+- JavaScript (for FAQs page)
 
 ### Frameworks, Libraries and Programs Used
 
@@ -233,15 +251,41 @@ Additionally, I'd have integrated a search bar at the top of the website's navig
 
 - You can view testing [here](https://github.com/zaicodes/beyond-photos-photography/blob/main/TESTING.md)
 
-## Deployment
 
-The website was deployed via GitHub Pages. Follow these steps to deploy:
+## Deployment & Local Development
 
-- Open the GitHub repository and go to the Settings tab.
-- In the source section drop-down menu, choose the Main Branch and click "Save".
-- The page will refresh automatically, and a ribbon display will appear, confirming the successful deployment.
+### Deployment
 
-- You can access the live link by clicking [here](https://zaicodes.github.io/beyond-photos-photography/index.html).
+Github Pages was used to deploy the live website. The instructions to achieve this are below:
+
+- Log in (or sign up) to Github.
+- Find the repository for this project, Beyond-Photos-Photography.
+- Click on the Settings link.
+- Click on the Pages link in the left hand side navigation bar.
+- In the Source section, choose main from the drop down select branch menu. Select Root from the drop down select folder menu.
+- Click Save. Your live Github Pages site is now deployed at the URL shown.
+
+### Local Development
+
+How to Fork:
+
+To fork the Beyond-Photos-Photography repository:
+
+- Log in (or sign up) to Github.
+- Go to the repository for this project, https://github.com/zaicodes/beyond-photos-photography.
+- Click the Fork button in the top right corner.
+
+
+How to Clone:
+
+To clone the Beyond-Photos-Photography repository:
+
+- Log in (or sign up) to GitHub.
+- Go to the repository for this project, https://github.com/zaicodes/beyond-photos-photography.
+- Click on the code button, select whether you would like to clone with HTTPS, SSH or GitHub CLI and copy the link shown.
+- Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory.
+- Type 'git clone' into the terminal and then paste the link you copied in step 3. Press enter.
+
 
 ## Credits
 

@@ -65,7 +65,7 @@ Throughout the entire development process, I conducted continuous testing, makin
 
 ### Other bugs that were resolved include:
 
-- Moving all script elements to the bottom of the body on every page.
+- Moving all script elements to the bottom of the body on every page, as having them on the head make the website performance poor.
 
 - Removing the :hover effect from all images on both Home and Gallery pages for small screens.
 
@@ -281,7 +281,7 @@ Had I opted for a slightly darker red, as shown below, it would have resulted in
 ![Darker red](https://github.com/zaicodes/beyond-photos-photography/blob/main/documentation/testing/contrast2.png)
 
 
-However, I'm pleased to report that the color contrast between texts and backgrounds in other areas of the website was acceptable and did not present readability issues.
+However, I'm pleased to report that the colour contrast between texts and backgrounds in other areas of the website was acceptable and did not present readability issues.
 
 ![good contrast](https://github.com/zaicodes/beyond-photos-photography/blob/main/documentation/testing/contrast1.png)
 
