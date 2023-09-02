@@ -1,11 +1,9 @@
-
 /* Credits: 
 The code used for FAQs is from: https://www.youtube.com/watch?v=6U-8kIx2oMk
 , modified to suit my project
 */
 
-
-/* navbar */ 
+/* navbar */
 
 .faqs::before {
   content: "";
@@ -93,12 +91,12 @@ Q:hover {
   line-height: 1.4;
 }
 
-.faqs-more h1{
+.faqs-more h1 {
   font-family: "Montserrat", sans-serif;
   font-size: 2.5rem;
   font-weight: 500;
 }
-.faqs-more p{
+.faqs-more p {
   font-family: sans-serif;
   font-size: 1.6rem;
   font-weight: 600;
@@ -119,4 +117,38 @@ Q:hover {
 .faqs-button:hover {
   background-color: #c31010;
   color: white;
+}
+
+.video {
+  max-width: 800px;
+  margin: 0 auto;
+  padding-bottom: 50px;
+}
+.video-title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5rem;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.video p {
+  font-family: sans-serif;
+  font-size: 1.6rem;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.video-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.video-container iframe {
+  width: 100%;
+  height: 500px;
+  border: 3px solid #c31010;
+  border-radius: 5px;
 }
