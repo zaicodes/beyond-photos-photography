@@ -1,5 +1,3 @@
-
-
 # Testing
 
 Throughout the entire development process, I conducted continuous testing, making use of Chrome developer tools to identify and troubleshoot any issues as I progressed. The code was testing on both local host and after published website too.
@@ -28,7 +26,6 @@ Throughout the entire development process, I conducted continuous testing, makin
 
 - For better image optimization, all images were converted to Webp files using cloudconvert.com, replacing the previous png/jpeg formats.
 
-
 ### Upon submitting my website for peer code review on Slack, several points were raised by mentor Harry Dhillon:
 
 - The social media icons in the footer had no links. I promptly added links for all 3 social media platforms.
@@ -53,7 +50,6 @@ Throughout the entire development process, I conducted continuous testing, makin
 
 - Converted all photos to webp format in both the Gallery page and the gallery section on the index page using cloudconvert.com.
 
-
 ### Additionally, the following suggestions from Narender were also addressed on my final mentor session:
 
 - Placed nav inside the header element.
@@ -61,7 +57,6 @@ Throughout the entire development process, I conducted continuous testing, makin
 - Consolidated all common CSS codes, such as navbar and footer styles, into Style.css to avoid redundancy.
 
 - Created a JavaScript file and moved the faqs JavaScript code into that file.
-
 
 ### Other bugs that were resolved include:
 
@@ -89,11 +84,9 @@ Throughout the entire development process, I conducted continuous testing, makin
 
 - Adding description meta tags to all pages for better search engine optimization and user understanding.
 
-- Making the social links open in a new tab by adding the target=”_blank” and rel=”noopener” attributes.
+- Making the social links open in a new tab by adding the target=”\_blank” and rel=”noopener” attributes.
 
 - Removed extra media query code which was interacting negatively with the photo sizes on different screens on Gallary page.
-
-
 
 ## Validator Testing
 
@@ -101,14 +94,13 @@ The HTML on all pages of the website underwent validation using the W3C validato
 
 ![validator error](https://github.com/zaicodes/beyond-photos-photography/blob/main/documentation/testing/validator.error1.png)
 
-During the initial validation testing, I encountered a persistent error across all pages. The issue was caused by an extra span code present in the navbar, which was included in the Bootstrap code I found on the Bootstrap website. 
+During the initial validation testing, I encountered a persistent error across all pages. The issue was caused by an extra span code present in the navbar, which was included in the Bootstrap code I found on the Bootstrap website.
 
 To fix this, I performed a test by removing the unnecessary span code and found that the website continued to function properly without any adverse effects. Consequently, I decided to remove the extra span code to ensure that this error did not appear during further testing.
 
 ![validator warning](https://github.com/zaicodes/beyond-photos-photography/blob/main/documentation/testing/validator.warning.png)
 
 Additionally, on the index page, there were three warnings presented after testing the code on the validator. These warnings indicated that the h1 elements should be used as top-level headings outside the section, at the top. However, in this case, the h1 elements were placed within the section. To address this issue, I made the necessary changes by converting these h1 elements to div and h2 elements. By doing so, I resolved the warnings and ensured that the proper hierarchy of heading elements was maintained within the sections.
-
 
 - Final validation results:
 
@@ -132,7 +124,6 @@ confirmation.html
 
 CSS validator
 ![CSS](https://github.com/zaicodes/beyond-photos-photography/blob/main/documentation/testing/cssvalidator.png)
-
 
 ## Testing User Stories from the User Experience (UX) Section
 
@@ -197,7 +188,6 @@ Monitoring the gallery: Frequent visitors might frequently visit the gallery to 
 Engaging with social media or Community: Loyal and enthusiastic frequent visitors might want to stay in touch and check for the latest posts through the social media, which is accessible in the footer of all pages.
 ![footer](https://github.com/zaicodes/beyond-photos-photography/blob/main/documentation/testing/footer.png)
 
-
 ## Lighthouse
 
 To assess the performance, accessibility, best practices, and SEO of the website, I utilized Lighthouse, a powerful tool available within the Chrome Developer Tools. This enabled me to thoroughly test and evaluate different aspects of the website's performance, ensuring it meets the highest standards across all key areas.
@@ -216,13 +206,11 @@ The initial Lighthouse testing scores indicated poor performance, but I managed 
 
 Even after switching to incognito mode, I noticed that the results were not satisfactory, particularly regarding SEO across all pages. My mentor offered a solution to address this issue by recommending the addition of a meta description to the HTML files. Implementing this change is expected to improve the website's search engine optimization and enhance its overall performance in search results which also improved the SEO result.
 
-
 ### The following are the final lighthouse testing results:
 
 - Home page:
 
 ![index desktop](https://github.com/zaicodes/beyond-photos-photography/blob/main/documentation/testing/index-desktop.png)
-
 
 ![index mobile](https://github.com/zaicodes/beyond-photos-photography/blob/main/documentation/testing/index-mobile.png)
 
@@ -232,16 +220,13 @@ Even after switching to incognito mode, I noticed that the results were not sati
 
 This particular issue was identified not only in the desktop Lighthouse report but also in the mobile Lighthouse report. Initially there were varying sizes of the photos used in the gallery section. I took the initiative to reduce their dimensions, ensuring that all photos appear consistent and presentable to users across different devices.
 
-Although resolving this issue was an option, I made a conscious decision not to amend it for the sake of my website's UI. The consistent photo sizes add a fixed and visually appealing element to the page, enhancing the overall user experience. 
-
+Although resolving this issue was an option, I made a conscious decision not to amend it for the sake of my website's UI. The consistent photo sizes add a fixed and visually appealing element to the page, enhancing the overall user experience.
 
 - Faqs page:
 
 ![faqs desktop](https://github.com/zaicodes/beyond-photos-photography/blob/main/documentation/testing/faqs-desktop.png)
 
-
 ![faqs mobile](https://github.com/zaicodes/beyond-photos-photography/blob/main/documentation/testing/faqs-mobile.png)
-
 
 - Gallery page:
 
@@ -249,15 +234,13 @@ Although resolving this issue was an option, I made a conscious decision not to 
 
 ![gallery mobile](https://github.com/zaicodes/beyond-photos-photography/blob/main/documentation/testing/gallery-mobile.png)
 
-
 - Contact us page:
 
 ![contact desktop](https://github.com/zaicodes/beyond-photos-photography/blob/main/documentation/testing/contact-desktop.png)
 
-
 ![contact mobile](https://github.com/zaicodes/beyond-photos-photography/blob/main/documentation/testing/contact-mobile.png)
 
-- Issues: 
+- Issues:
 
 The specific issue that surfaced in the desktop Lighthouse report is related to the integration of the Google Map used on the page. Given the significance of this map for my project, I encountered difficulties in resolving the problem. Despite my efforts, the issue persisted. Due to the map's essential role in the project, I have made the decision to leave it as is for the time being, ensuring that users can continue to access and utilize the map's functionalities on the desktop version of the website.
 
@@ -266,7 +249,6 @@ The specific issue that surfaced in the desktop Lighthouse report is related to 
 During the testing with Lighthouse on mobile devices, I encountered a related issue caused by the image aspect ratio. Initially, the image's height and width settings made it appear stretched on small screens. However, I was able to resolve this concern by incorporating a media query, following the advice provided by Harry. Since maintaining proper image aspect ratio is crucial for the success of my project, I decided to retain this solution as it effectively addressed the problem and ensured an optimal visual presentation on all devices.
 
 ![contact issue 2](https://github.com/zaicodes/beyond-photos-photography/blob/main/documentation/testing/contact-issue2.png)
-
 
 ## Testing colour contrasts
 
@@ -280,34 +262,27 @@ Had I opted for a slightly darker red, as shown below, it would have resulted in
 
 ![Darker red](https://github.com/zaicodes/beyond-photos-photography/blob/main/documentation/testing/contrast2.png)
 
-
 However, I'm pleased to report that the colour contrast between texts and backgrounds in other areas of the website was acceptable and did not present readability issues.
 
 ![good contrast](https://github.com/zaicodes/beyond-photos-photography/blob/main/documentation/testing/contrast1.png)
 
 ![good contrast2](https://github.com/zaicodes/beyond-photos-photography/blob/main/documentation/testing/contrast3.png)
 
-
 ## Cross-browser Testing
 
 I conducted thorough testing of the website across various internet browsers, including Firefox, Microsoft Edge, and Google Chrome. I am pleased to report that all the results were successful. The website performed flawlessly as expected, without encountering any issues.
-
 
 - Google Chrome
 
 ![Google Chrome](https://github.com/zaicodes/beyond-photos-photography/blob/main/documentation/testing/chrome.png)
 
-
 - Firefox
 
-![Firefox](https://github.com/zaicodes/beyond-photos-photography/blob/main/documentation/testing/firefox.png)
-
+![Firefox](https://github.com/zaicodes/beyond-photos-photography/blob/main/documentation/testing/Firefox.png)
 
 - Microsoft Edge
 
 ![Edge](https://github.com/zaicodes/beyond-photos-photography/blob/main/documentation/testing/edge.png)
-
-
 
 ## Compatibility and Responsiveness Testing
 
@@ -323,7 +298,6 @@ The results were outstanding, as the site loaded seamlessly and operated flawles
 
 ![HP laptop 3](https://github.com/zaicodes/beyond-photos-photography/blob/main/documentation/testing/hp.3.png)
 
-
 - Samsung Galaxy S23 Android
 
 ![Samsung Phone 1](https://github.com/zaicodes/beyond-photos-photography/blob/main/documentation/testing/samsung.phone.jpg)
@@ -331,7 +305,6 @@ The results were outstanding, as the site loaded seamlessly and operated flawles
 ![Samsung Phone 2](https://github.com/zaicodes/beyond-photos-photography/blob/main/documentation/testing/samsung.phone2.jpg)
 
 ![Samsung Phone 3](https://github.com/zaicodes/beyond-photos-photography/blob/main/documentation/testing/samsung.phone3.jpg)
-
 
 - iPhone 13 Pro Max
 
@@ -341,8 +314,6 @@ The results were outstanding, as the site loaded seamlessly and operated flawles
 
 ![Samsung Phone 3](https://github.com/zaicodes/beyond-photos-photography/blob/main/documentation/testing/iphone.3.jpg)
 
-
-
 - Samsung Galaxy S7+ tab
 
 ![Samsung tab 3](https://github.com/zaicodes/beyond-photos-photography/blob/main/documentation/testing/samsung.tab.jpg)
@@ -351,18 +322,23 @@ The results were outstanding, as the site loaded seamlessly and operated flawles
 
 ![Samsung tab 3](https://github.com/zaicodes/beyond-photos-photography/blob/main/documentation/testing/samsung.tab3.jpg)
 
-
 ## Further Testing
 
-To ensure the functionality and responsiveness of my website, I conducted comprehensive testing on both local host and on published website. 
+To ensure the functionality and responsiveness of my website, I conducted comprehensive testing on both local host and on published website.
 
 ### Testing Links:
 
 On the index page, I thoroughly tested each link, and they all worked as expected. I did this on both local host and published website. Links leading to external pages, such as the social media links, opened correctly in separate browser tabs. The same meticulous testing was performed on the gallery page, faqs page, contact page and even the confirmation page. All links functioned correctly, and external links opened in separate tabs as intended.
 
+### Testing the video in FAQs
+
+I conducted extensive testing of the video in FAQs page across various screen sizes too, to ensure its responsiveness. Additionally, the video offers users an array of controls, including play, accelerometer, autoplay, gyroscope, and full-screen options for a customized viewing experience.
+
+"Gyroscope & Accelerometer" functionality ensures that the video orientation remains aligned with the device's position, even when the user rotates their phone, thus keeping the content upright.
+
 ### Contact Us Form Testing:
 
-I thoroughly tested the contact us form on both local host stage and published product, to ensure its functionality. 
+I thoroughly tested the contact us form on both local host stage and published product, to ensure its functionality.
 
 When attempting to submit the form without filling in any input fields, the form correctly directed users to fill in the first name field. After providing the first name, I tried submitting again, and the form guided me to fill out the last name field. The process continued seamlessly, prompting me to fill the email etc.
 
@@ -373,5 +349,3 @@ Incorporating date selection in the form, I meticulously tested various scenario
 Even when the form was submitted with minimal information or left completely empty, the form provided clear instructions on the missing fields, guiding users to complete the necessary information before successful submission. Once the form was successfully submitted, it would open the confirmation page in the same browser window. After a few seconds, the confirmation page would automatically redirect the user back to the home page, creating a seamless user experience. This feature ensures that users receive instant confirmation while effortlessly navigating back to the main page.
 
 Through rigorous testing, I ensured that the contact us form works seamlessly, providing users with a smooth and user-friendly experience for getting in touch with the photographer.
-
-

@@ -249,7 +249,11 @@ The footer will be present across every page of the site, featuring the logo and
 
 ![FAQs](https://github.com/zaicodes/beyond-photos-photography/blob/main/documentation/testing/faqs.png)
 
+![FAQs-video](https://github.com/zaicodes/beyond-photos-photography/blob/main/documentation/testing/faqs-video.png)
+
 The FAQs page serves as a valuable resource for users seeking answers to their inquiries before finalising a session booking. Moreover, it features a convenient call-to-action button, urging visitors to get in touch with the photographer directly in case their specific question is not addressed in the existing list of FAQs.
+
+Additionally, the FAQs page include a dedicated section featuring an instructional video aimed at assisting users in understanding the tips and tricks of taking amazing photos. This section comprises a title, a descriptive paragraph, and the video itself, all designed to seamlessly adapt to various screen sizes for user convenience.
 
 ### About/Contact Us Page
 
@@ -368,6 +372,7 @@ To clone the Beyond-Photos-Photography repository:
 - The Navbar Toggle as well as the rest of the Bootstrap codes were taken from the Bootstrap website.
 - The hover effect on images on Gallery page is from [this link](https://codepen.io/knyttneve/pen/YgZbLO)
 - The FAQ code is from [YouTube](https://www.youtube.com/watch?v=6U-8kIx2oMk)
+- The YouTube video used in FAQs page is from [YouTube](https://www.youtube.com/watch?v=a1ZaCiFxg78)
 - The meta element on confirmation.html that redirect user to home page was from [this tutorial](https://www.tutorialspoint.com/How-to-automatically-redirect-a-Web-Page-to-another-URL).
 - In contact.html, the code that helped me position photo on the side with text on the the other side on the same section was inspired from [here](https://www.digitalocean.com/community/tutorials/how-to-build-the-about-me-section-of-your-website-with-css-section-2).
 - Contact us form was taken from [here](https://freefrontend.com/css-contact-forms/) and [here](https://www.peoplemetrics.com/contact).
