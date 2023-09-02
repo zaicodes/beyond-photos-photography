@@ -1,5 +1,3 @@
-
-
 # Beyond Photos Photography
 
 ![Beyond-Photos-Photography](https://github.com/zaicodes/beyond-photos-photography/blob/main/documentation/testing/website.png)
@@ -82,8 +80,6 @@
 
   - [Acknowledgements](https://github.com/zaicodes/beyond-photos-photography#acknowledgements)
 
-
-
 ## Project Goals
 
 ### Initial discussion:
@@ -115,11 +111,11 @@ The intended audience are those who are looking for professional photography ser
 
 Easy Navigation: When I visit the website, I will find a clear navigation menu at the top, making it easy for me to access different sections of the site. I can also use the logo at the top and bottom of the pages to quickly navigate back to the home page.
 
-Visually appealing experience: As a first-time visitor, I'll notice a captivating hero section on the home page, showcasing an image of the photographer's work and giving me a glimpse of their artistic style. 
+Visually appealing experience: As a first-time visitor, I'll notice a captivating hero section on the home page, showcasing an image of the photographer's work and giving me a glimpse of their artistic style.
 
 Checking the Gallery: As a first time visitor, I can easily access the gallery from the home page. Whether I'm seeking inspiration, want to revisit the photographer's style, or explore new additions to the gallery, it's all there for me.
 
-Checking for Services: When I explore the home page, I will easily check the services section to find the types of sessions that the photographer offers. 
+Checking for Services: When I explore the home page, I will easily check the services section to find the types of sessions that the photographer offers.
 
 Gathering Information: I'll find a dedicated section on the home page featuring testimonials from satisfied clients. This will help me gather valuable information and make an informed decision about the photographer's services.
 
@@ -137,7 +133,7 @@ Contact Information: For my convenience, the Contact Us page provides various co
 
 Monitoring the gallery: As a frequent visitor, I can keep an eye on the gallery for any newly added photos and stay updated about new sessions.
 
-Engaging with Social Media or Community: As one of the loyal and enthusiastic frequent visitors, I'm encouraged to stay connected with the photographer through social media. 
+Engaging with Social Media or Community: As one of the loyal and enthusiastic frequent visitors, I'm encouraged to stay connected with the photographer through social media.
 
 ## Design
 
@@ -190,19 +186,17 @@ During the planning phase, I used Balsamiq to create wireframes for each page an
 - Contact
   ![Contact](https://github.com/zaicodes/beyond-photos-photography/blob/main/documentation/Contact.png)
 
-
 ## Features
 
 The website consists of six pages, four of which are readily accessible from the navigation menu: the home page, gallery page, FAQs page, and contact us page. The fifth page becomes accessible once the user clicks the "More Review" button in the testimonial section on the home page. Moreover, there is a confirmation page that appears after a user submits the form on the contact us page.
 
 The website utilizes Bootstrap grid sizes and CSS3 media queries to ensure a responsive layout that automatically adjusts and reflows when the screen is resized.
 
-
 ### Navigation
 
 ![navbar](https://github.com/zaicodes/beyond-photos-photography/blob/main/documentation/testing/navbar.png)
 
-The navigation bar consists of the Beyond Photos Photography logo that links to the home page, as well as links to Gallery, FAQs and About/contact us pages. It exhibits responsiveness, adapting to different screen sizes seamlessly. 
+The navigation bar consists of the Beyond Photos Photography logo that links to the home page, as well as links to Gallery, FAQs and About/contact us pages. It exhibits responsiveness, adapting to different screen sizes seamlessly.
 
 ![responsiveness](https://github.com/zaicodes/beyond-photos-photography/blob/main/documentation/testing/responsive.png)
 
@@ -213,35 +207,40 @@ On larger screens, the links are presented as clickable page titles. However, on
 - Beneath the navigation bar, there is a black title line which indicates the current page the user is on. This feature enhances navigation and provides clarity throughout the browsing.
 
 ### The Landing Page Image
+
 ![hero-section](https://github.com/zaicodes/beyond-photos-photography/blob/main/documentation/testing/hero-section.png)
 
 - The landing page includes a photograph with text overlay to let the user understand the purpose of the website.
 - Underneath of the headline, there is a Call-to-Action (CTA) button which can lead to contact us page.
 
 ### Gallery
+
 ![gallery](https://github.com/zaicodes/beyond-photos-photography/blob/main/documentation/testing/gallery-section.png)
 
-The gallery can be accessed from the home page via the gallery section, allowing visitors to learn more about the photographer's work and style. 
+The gallery can be accessed from the home page via the gallery section, allowing visitors to learn more about the photographer's work and style.
 
 ![gallery](https://github.com/zaicodes/beyond-photos-photography/blob/main/documentation/testing/gallery.png)
 
 The gallery page boasts an array of photos showcasing the photographer's unique and captivating work. Each photo is adorned with a hover effect, adding a touch of uniqueness and creating an interesting and pleasing visual experience for the user.
 
 ### Testimonials
+
 ![testimonials](https://github.com/zaicodes/beyond-photos-photography/blob/main/documentation/testing/testimonial.png)
 
-The Testimonials section showcases customer reviews, providing valuable insights for new users who are exploring the website for the first time. 
+The Testimonials section showcases customer reviews, providing valuable insights for new users who are exploring the website for the first time.
 
 ![testimonials](https://github.com/zaicodes/beyond-photos-photography/blob/main/documentation/testing/testimonial-small-screen.png)
 
 This responsive section optimizes the display based on the screen size: all three testimonials appear on the same line on large screens, and individually on three lines for medium and smaller screens. This ensures that users have a seamless and user-friendly experience, regardless of the device they are using to access the site.
 
 ### Services
+
 ![services](https://github.com/zaicodes/beyond-photos-photography/blob/main/documentation/testing/services.png)
 
 The service section, titled "Our Packages," is prominently displayed on the home page. Here, you will find a list of three enticing offers along with their respective prices. Beneath the packages, a clear and compelling call-to-action button awaits, guiding users to easily book a session when they feel ready. Whether you are a first-time visitor or a returning customer, this seamless process ensures that you can quickly select and book the perfect package to suit your preferences and needs.
 
 ### Footer
+
 ![footer](https://github.com/zaicodes/beyond-photos-photography/blob/main/documentation/testing/footer.png)
 
 The footer will be present across every page of the site, featuring the logo and social media icons that link directly to the corresponding social media websites. This will enable users to effortlessly stay up to date with the photographer's latest updates and events on various platforms.
@@ -251,7 +250,6 @@ The footer will be present across every page of the site, featuring the logo and
 ![FAQs](https://github.com/zaicodes/beyond-photos-photography/blob/main/documentation/testing/faqs.png)
 
 The FAQs page serves as a valuable resource for users seeking answers to their inquiries before finalising a session booking. Moreover, it features a convenient call-to-action button, urging visitors to get in touch with the photographer directly in case their specific question is not addressed in the existing list of FAQs.
-
 
 ### About/Contact Us Page
 
@@ -329,7 +327,6 @@ Throughout the coding process, I have prioritized making the website as accessib
 
 - You can view testing [here](https://github.com/zaicodes/beyond-photos-photography/blob/main/TESTING.md)
 
-
 ## Deployment & Local Development
 
 ### Deployment
@@ -353,7 +350,6 @@ To fork the Beyond-Photos-Photography repository:
 - Go to the repository for this project, https://github.com/zaicodes/beyond-photos-photography.
 - Click the Fork button in the top right corner.
 
-
 How to Clone:
 
 To clone the Beyond-Photos-Photography repository:
@@ -363,7 +359,6 @@ To clone the Beyond-Photos-Photography repository:
 - Click on the code button, select whether you would like to clone with HTTPS, SSH or GitHub CLI and copy the link shown.
 - Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory.
 - Type 'git clone' into the terminal and then paste the link you copied in step 3. Press enter.
-
 
 ## Credits
 
@@ -375,8 +370,7 @@ To clone the Beyond-Photos-Photography repository:
 - The FAQ code is from [YouTube](https://www.youtube.com/watch?v=6U-8kIx2oMk)
 - The meta element on confirmation.html that redirect user to home page was from [this tutorial](https://www.tutorialspoint.com/How-to-automatically-redirect-a-Web-Page-to-another-URL).
 - In contact.html, the code that helped me position photo on the side with text on the the other side on the same section was inspired from [here](https://www.digitalocean.com/community/tutorials/how-to-build-the-about-me-section-of-your-website-with-css-section-2).
-- Contact us form was taken from [here](https://freefrontend.com/css-contact-forms/) and [here](https://www.peoplemetrics.com/contact). 
-
+- Contact us form was taken from [here](https://freefrontend.com/css-contact-forms/) and [here](https://www.peoplemetrics.com/contact).
 
 ### Media:
 
@@ -388,7 +382,7 @@ All images used are from:
 ### Website Content:
 
 - Some of the website's information content was inspired by the following Photographer's page:
-https://www.mirandamazza.com/
+  https://www.mirandamazza.com/
 - The rest of the website text content was created and written by me.
 
 ### Acknowledgements
