@@ -119,9 +119,10 @@ Q:hover {
   color: white;
 }
 
-.video {
-  max-width: 800px;
-  margin: 0 auto;
+/* YouTube video Section */
+.video-section {
+  max-width: 100%;
+  margin: auto;
   padding-bottom: 50px;
 }
 .video-title {
@@ -132,7 +133,7 @@ Q:hover {
   margin-bottom: 30px;
 }
 
-.video p {
+.video-paragraph {
   font-family: sans-serif;
   font-size: 1.6rem;
   font-weight: 600;
@@ -144,11 +145,15 @@ Q:hover {
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
 }
 
-.video-container iframe {
-  width: 100%;
-  height: 500px;
+.youtube {
   border: 3px solid #c31010;
   border-radius: 5px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: auto;
 }
